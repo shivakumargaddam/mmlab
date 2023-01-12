@@ -1,0 +1,130 @@
+.navbar-navbar {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  z-index: auto;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  align-items: flex-start;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: hidden;
+  border-width: 2px;
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+}
+.navbar-container {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: hidden;
+  border-width: 2px;
+  justify-content: center;
+}
+.navbar-button {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-red-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-red-400);
+}
+.navbar-button1 {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-cyan-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button1:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-cyan-400);
+}
+.navbar-button2 {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-blue-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button2:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-blue-400);
+}
+.navbar-button3 {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-yellow-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button3:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-yellow-400);
+}
+.navbar-button4 {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-green-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button4:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-green-400);
+}
+.navbar-button5 {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-violet-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button5:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-violet-400);
+}
+.navbar-button6 {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-magenta-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button6:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-magenta-400);
+}
+.navbar-button7 {
+  margin: var(--dl-space-space-halfunit);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  transition: 0.3s;
+  border-color: var(--dl-color-orange-400);
+  border-width: 3px;
+  border-radius: var(--dl-radius-radius-radius6);
+  text-decoration: none;
+}
+.navbar-button7:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-orange-400);
+}

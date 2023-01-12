@@ -1,0 +1,158 @@
+:root {
+  --dl-color-red-100: #ffe4e1ff;
+  --dl-color-red-200: #fa8072ff;
+  --dl-color-red-300: #ff6347ff;
+  --dl-color-red-400: #ff0000ff;
+  --dl-color-red-500: #b22222ff;
+  --dl-color-red-600: #8b0000ff;
+  --dl-color-blue-100: #87cefaff;
+  --dl-color-blue-200: #6495edff;
+  --dl-color-blue-300: #0000cdff;
+  --dl-color-blue-400: #00008bff;
+  --dl-color-blue-500: #000080ff;
+  --dl-color-cyan-100: #afeeeeff;
+  --dl-color-cyan-200: #20b2aaff;
+  --dl-color-cyan-300: #5f9ea0ff;
+  --dl-color-cyan-400: #008080ff;
+  --dl-color-cyan-500: #2f4f4fff;
+  --dl-color-gray-200: #f5f5f5ff;
+  --dl-color-gray-300: #dcdcdcff;
+  --dl-color-gray-400: #d3d3d3ff;
+  --dl-color-gray-500: #c0c0c0ff;
+  --dl-color-gray-600: #a9a9a9ff;
+  --dl-color-gray-700: #808080ff;
+  --dl-color-gray-800: #696969ff;
+  --dl-color-green-100: #98fb98ff;
+  --dl-color-green-200: #7fff00ff;
+  --dl-color-green-300: #00ff00ff;
+  --dl-color-green-400: #228b22ff;
+  --dl-color-green-500: #006400ff;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-color-orange-100: #fff5eeff;
+  --dl-color-orange-200: #ffdab9ff;
+  --dl-color-orange-300: #ffa07aff;
+  --dl-color-orange-400: #ff7f50ff;
+  --dl-color-orange-500: #ff4500ff;
+  --dl-color-orange-600: #8b4513ff;
+  --dl-color-violet-100: #e6e6faff;
+  --dl-color-violet-200: #7b68eeff;
+  --dl-color-violet-300: #6a5acdff;
+  --dl-color-violet-400: #483d8bff;
+  --dl-color-yellow-100: #fffacdff;
+  --dl-color-yellow-200: #f0e68cff;
+  --dl-color-yellow-300: #ffd700ff;
+  --dl-color-yellow-400: #ffa500ff;
+  --dl-color-yellow-500: #b8860bff;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-magenta-100: #ffc0cbff;
+  --dl-color-magenta-200: #db7093ff;
+  --dl-color-magenta-300: #ff1493ff;
+  --dl-color-magenta-400: #c71585ff;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-cardicon: 20px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-size-size-cardwidth: 600px;
+  --dl-size-size-cardheight: 200px;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius6: 6px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-size-size-bottomspace: 50px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Content {
+  font-size: 16px;
+  font-family: Reem Kufi;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading3 {
+  font-size: 22px;
+  font-family: Reem Kufi;
+  font-weight: 600;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+.Heading2 {
+  font-size: 30px;
+  font-family: Reem Kufi;
+  font-weight: 600;
+  text-transform: none;
+  text-decoration: none;
+}
+.GroupName {
+  font-size: 35px;
+  font-family: Reem Kufi Ink;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: auto;
+  text-transform: none;
+  text-decoration: none;
+}
+.publications {
+  font-size: 18px;
+  font-family: Reem Kufi;
+  font-weight: 400;
+  line-height: 2;
+  letter-spacing: auto;
+  text-transform: none;
+  text-decoration: none;
+}
