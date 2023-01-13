@@ -27,10 +27,37 @@
 }
 .header-text {
   margin: var(--dl-space-space-halfunit);
+  font-size: 35px;
+  font-family: Reem Kufi Ink;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: auto;
+  text-transform: none;
+  text-decoration: none;
 }
 .header-text1 {
   margin-top: 0px;
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
+}
+@media(max-width: 991px) {
+  .header-container1 {
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  .header-text {
+    font-size: 30px;
+  }
+}
+@media(max-width: 767px) {
+  .header-image {
+    align-self: flex-start;
+    margin-top: var(--dl-space-space-halfunit);
+  }
+}
+@media(max-width: 479px) {
+  .header-text {
+    font-size: 25px;
+  }
 }

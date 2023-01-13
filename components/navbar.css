@@ -14,10 +14,11 @@
   background-color: var(--dl-color-gray-white);
 }
 .navbar-container {
-  flex: 0 0 auto;
+  flex: 1;
   width: auto;
   height: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: hidden;
