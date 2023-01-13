@@ -318,6 +318,8 @@
 
 
 
+
+
 @media(max-width: 767px) {
   .alumni-card-member-card {
     width: 470px;
@@ -659,6 +661,35 @@
   text-decoration: none;
 }
 .alumni-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.alumni-b-tech-students {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-color: rgba(120, 120, 120, 0.4);
+  border-style: hidden;
+  border-width: 2px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.alumni-text4 {
+  margin: var(--dl-space-space-twounits);
+  font-size: 30px;
+  font-style: normal;
+  font-family: Reem Kufi;
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.alumni-container6 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
