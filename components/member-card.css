@@ -45,24 +45,12 @@
   border-bottom-left-radius: 0;
 }
 .member-card-name {
-  font-size: 22px;
   font-style: normal;
   margin-top: var(--dl-space-space-halfunit);
-  font-family: Reem Kufi;
-  font-weight: 500;
-  line-height: 1.15;
   margin-bottom: var(--dl-space-space-halfunit);
-  text-transform: none;
-  text-decoration: none;
 }
 .member-card-year-of-joining {
-  font-size: 16px;
-  font-family: Reem Kufi Ink;
-  font-weight: 400;
-  line-height: 1.15;
   margin-bottom: 4px;
-  text-transform: none;
-  text-decoration: none;
 }
 .member-card-email {
   margin-bottom: 4px;
