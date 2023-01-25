@@ -1,25 +1,26 @@
 .alumni-mini-card-container {
   flex: 0 0 auto;
-  width: 48%;
+  width: 47%;
   height: 50px;
   display: flex;
   position: relative;
   margin-top: 0%;
   transition: 0.3s;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 1%;
   padding-top: 0px;
   border-color: var(--dl-color-colors-outlinegray);
   border-style: hidden;
   border-width: 3px;
   margin-right: 1%;
-  padding-left: 2%;
+  padding-left: 3%;
   border-radius: var(--dl-radius-radius-radius4);
   margin-bottom: 0%;
-  padding-right: 2%;
-  flex-direction: column;
+  padding-right: 3%;
+  flex-direction: row;
   padding-bottom: 0px;
   justify-content: center;
+  text-decoration: none;
 }
 .alumni-mini-card-container:hover {
   border-color: var(--dl-color-colors-accent);

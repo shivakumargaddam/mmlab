@@ -53,8 +53,13 @@
     margin-right: var(--dl-space-space-halfunit);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
+  .header-container {
+    padding: 2%;
+  }
   .header-image {
+    width: 50px;
+    margin-top: 12px;
     margin-right: var(--dl-space-space-halfunit);
   }
   .header-text {

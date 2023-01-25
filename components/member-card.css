@@ -167,7 +167,7 @@
     position: static;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .member-card-member-card {
     width: 92%;
   }

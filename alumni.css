@@ -53,8 +53,13 @@
     margin-right: var(--dl-space-space-halfunit);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
+  .header-container {
+    padding: 2%;
+  }
   .header-image {
+    width: 50px;
+    margin-top: 12px;
     margin-right: var(--dl-space-space-halfunit);
   }
   .header-text {
@@ -89,13 +94,16 @@
   justify-content: center;
 }
 .navbar-button {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
@@ -104,13 +112,16 @@
   color: var(--dl-color-colors-accent);
 }
 .navbar-button1 {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
@@ -119,13 +130,16 @@
   color: var(--dl-color-colors-accent);
 }
 .navbar-button2 {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
@@ -134,13 +148,16 @@
   color: var(--dl-color-colors-accent);
 }
 .navbar-button3 {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
@@ -149,13 +166,16 @@
   color: var(--dl-color-colors-accent);
 }
 .navbar-button4 {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
@@ -164,13 +184,16 @@
   color: var(--dl-color-colors-accent);
 }
 .navbar-button5 {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
@@ -179,13 +202,16 @@
   color: var(--dl-color-colors-accent);
 }
 .navbar-button6 {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
@@ -194,19 +220,56 @@
   color: var(--dl-color-colors-accent);
 }
 .navbar-button7 {
-  margin: var(--dl-space-space-halfunit);
   font-size: 16px;
+  margin-top: var(--dl-space-space-halfunit);
   transition: 0.3s;
   font-family: Nunito;
   font-weight: 500;
+  margin-left: var(--dl-space-space-unit);
   padding-top: 0px;
   border-style: hidden;
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-halfunit);
   padding-bottom: 0px;
   text-transform: none;
   text-decoration: none;
 }
 .navbar-button7:hover {
   color: var(--dl-color-colors-accent);
+}
+@media(max-width: 400px) {
+  .navbar-button {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-button1 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-button2 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-button3 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-button4 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-button5 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-button6 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
+  .navbar-button7 {
+    margin-left: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-space-space-halfunit);
+  }
 }
 
 .alumni-card-member-card {
@@ -282,6 +345,9 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+.alumni-card-link {
+  display: contents;
+}
 .alumni-card-linked-in {
   flex: 0 0 auto;
   width: var(--dl-size-size-cardicon);
@@ -292,12 +358,16 @@
   align-items: center;
   border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
+  text-decoration: none;
   background-color: var(--dl-color-blue-300);
 }
 .alumni-card-icon {
   fill: var(--dl-color-gray-white);
   width: 100%;
   height: 100%;
+}
+.alumni-card-link1 {
+  display: contents;
 }
 .alumni-card-google-scholar {
   flex: 0 0 auto;
@@ -315,12 +385,16 @@
   padding-right: 3px;
   padding-bottom: 3px;
   justify-content: center;
+  text-decoration: none;
   background-color: #298aff;
 }
 .alumni-card-icon2 {
   fill: var(--dl-color-gray-white);
   width: 100%;
   height: 100%;
+}
+.alumni-card-link2 {
+  display: contents;
 }
 .alumni-card-website-resume {
   flex: 0 0 auto;
@@ -332,6 +406,7 @@
   align-items: center;
   border-radius: var(--dl-radius-radius-radius4);
   justify-content: center;
+  text-decoration: none;
   background-color: var(--dl-color-red-500);
 }
 .alumni-card-icon4 {
@@ -377,7 +452,7 @@
     position: static;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .alumni-card-member-card {
     width: 92%;
   }
@@ -385,26 +460,27 @@
 
 .alumni-mini-card-container {
   flex: 0 0 auto;
-  width: 48%;
+  width: 47%;
   height: 50px;
   display: flex;
   position: relative;
   margin-top: 0%;
   transition: 0.3s;
-  align-items: flex-start;
+  align-items: center;
   margin-left: 1%;
   padding-top: 0px;
   border-color: var(--dl-color-colors-outlinegray);
   border-style: hidden;
   border-width: 3px;
   margin-right: 1%;
-  padding-left: 2%;
+  padding-left: 3%;
   border-radius: var(--dl-radius-radius-radius4);
   margin-bottom: 0%;
-  padding-right: 2%;
-  flex-direction: column;
+  padding-right: 3%;
+  flex-direction: row;
   padding-bottom: 0px;
   justify-content: center;
+  text-decoration: none;
 }
 .alumni-mini-card-container:hover {
   border-color: var(--dl-color-colors-accent);
@@ -637,7 +713,7 @@
     width: 100%;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .footer-container2 {
     flex-wrap: wrap;
   }
@@ -777,7 +853,7 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   min-height: 200px;
   align-items: stretch;
-  padding-top: 1.5%;
+  padding-top: 2%;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: hidden;
   border-width: 2px;
@@ -785,8 +861,8 @@
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: 1%;
   flex-direction: row;
-  padding-bottom: 1.5%;
-  justify-content: flex-start;
+  padding-bottom: 2%;
+  justify-content: space-between;
   background-color: white;
 }
 .alumni-dual-degree-students {
@@ -815,7 +891,7 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   min-height: 200px;
   align-items: stretch;
-  padding-top: 1.5%;
+  padding-top: 2%;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: hidden;
   border-width: 2px;
@@ -823,8 +899,8 @@
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: 1%;
   flex-direction: row;
-  padding-bottom: 1.5%;
-  justify-content: flex-start;
+  padding-bottom: 2%;
+  justify-content: space-between;
   background-color: white;
 }
 .alumni-b-tech-students {
@@ -853,7 +929,7 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
   min-height: 200px;
   align-items: stretch;
-  padding-top: 1.5%;
+  padding-top: 2%;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: hidden;
   border-width: 2px;
@@ -861,8 +937,8 @@
   border-radius: var(--dl-radius-radius-radius8);
   padding-right: 1%;
   flex-direction: row;
-  padding-bottom: 1.5%;
-  justify-content: flex-start;
+  padding-bottom: 2%;
+  justify-content: space-between;
   background-color: white;
 }
 .alumni-dotted-line {

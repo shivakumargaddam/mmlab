@@ -204,7 +204,7 @@
     width: 100%;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 400px) {
   .footer-container2 {
     flex-wrap: wrap;
   }
