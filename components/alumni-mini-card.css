@@ -11,7 +11,7 @@
 }
 .alumni-mini-card-card-1 {
   flex: 0 0 auto;
-  width: 400px;
+  width: 360px;
   height: 50px;
   display: flex;
   padding: var(--dl-space-space-halfunit);
@@ -42,7 +42,7 @@
 }
 .alumni-mini-card-card-2 {
   flex: 0 0 auto;
-  width: 400px;
+  width: 360px;
   height: 50px;
   display: flex;
   padding: var(--dl-space-space-halfunit);
