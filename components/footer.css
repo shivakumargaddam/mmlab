@@ -21,6 +21,9 @@
   flex-direction: row;
   justify-content: flex-end;
 }
+.footer-navlink {
+  display: contents;
+}
 .footer-container1 {
   top: 0px;
   flex: 0 0 auto;
@@ -35,6 +38,7 @@
   padding-right: var(--dl-space-space-twounits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
 .footer-text {
   font-style: normal;
