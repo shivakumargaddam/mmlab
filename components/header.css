@@ -1,4 +1,5 @@
 .header-container {
+  top: 0;
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -44,27 +45,32 @@
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.header-root-class-name1 {
+  top: 0px;
+  left: 0px;
+  position: 0px;
+}
 @media(max-width: 991px) {
   .header-container1 {
     flex: 1;
     flex-wrap: wrap;
   }
   .header-text {
-    font-size: 30px;
+    font-size: 25;
   }
 }
 @media(max-width: 767px) {
+  .header-container {
+    padding: 2%;
+  }
   .header-image {
-    width: 60px;
+    width: 55;
     align-self: flex-start;
     margin-top: var(--dl-space-space-halfunit);
     margin-right: var(--dl-space-space-halfunit);
   }
 }
 @media(max-width: 400px) {
-  .header-container {
-    padding: 2%;
-  }
   .header-image {
     width: 50px;
     margin-top: 12px;

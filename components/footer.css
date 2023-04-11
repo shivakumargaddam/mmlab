@@ -118,6 +118,9 @@
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.footer-link {
+  display: contents;
+}
 .footer-container4 {
   flex: 0 0 auto;
   width: auto;
@@ -125,6 +128,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  text-decoration: none;
 }
 .footer-icon {
   width: 24px;

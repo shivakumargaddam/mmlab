@@ -1,4 +1,5 @@
 .header-container {
+  top: 0;
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -44,27 +45,32 @@
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.header-root-class-name1 {
+  top: 0px;
+  left: 0px;
+  position: 0px;
+}
 @media(max-width: 991px) {
   .header-container1 {
     flex: 1;
     flex-wrap: wrap;
   }
   .header-text {
-    font-size: 30px;
+    font-size: 25;
   }
 }
 @media(max-width: 767px) {
+  .header-container {
+    padding: 2%;
+  }
   .header-image {
-    width: 60px;
+    width: 55;
     align-self: flex-start;
     margin-top: var(--dl-space-space-halfunit);
     margin-right: var(--dl-space-space-halfunit);
   }
 }
 @media(max-width: 400px) {
-  .header-container {
-    padding: 2%;
-  }
   .header-image {
     width: 50px;
     margin-top: 12px;
@@ -324,14 +330,82 @@
 .navbar-root-class-name4 {
   display: none;
 }
-.navbar-root-class-name5 {
-  display: none;
-}
 .navbar-root-class-name6 {
   display: none;
 }
 .navbar-root-class-name7 {
   display: none;
+}
+.navbar-root-class-name8 {
+  display: none;
+}
+@media(max-width: 991px) {
+  .navbar-button {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .navbar-button1 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .navbar-button2 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .navbar-button3 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .navbar-button4 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .navbar-button5 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .navbar-button6 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .navbar-button7 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+}
+@media(max-width: 767px) {
+  .navbar-button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-button1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-button2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-button3 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-button4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-button5 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-button6 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .navbar-button7 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }
 @media(max-width: 400px) {
   .navbar-button {
@@ -694,6 +768,9 @@
   margin-right: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.footer-link {
+  display: contents;
+}
 .footer-container4 {
   flex: 0 0 auto;
   width: auto;
@@ -701,6 +778,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-start;
+  text-decoration: none;
 }
 .footer-icon {
   width: 24px;
@@ -813,10 +891,21 @@
   margin: 0%;
   display: flex;
   align-items: center;
+  padding-top: 170px;
   border-color: var(--dl-color-gray-black);
   border-style: hidden;
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: center;
+}
+.group-container1 {
+  top: 0;
+  width: 100%;
+  display: flex;
+  z-index: 100;
+  position: fixed;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
 }
@@ -834,7 +923,7 @@
   justify-content: center;
   background-color: var(--dl-color-gray-white);
 }
-.group-container1 {
+.group-container2 {
   flex: 1;
   width: auto;
   height: auto;
@@ -922,7 +1011,6 @@
 }
 .group-button2:hover {
   color: var(--dl-color-colors-accent);
-  border-color: var(--dl-color-colors-accent);
   border-style: solid;
 }
 .group-button3 {
@@ -1070,7 +1158,7 @@
   margin: var(--dl-space-space-twounits);
   font-style: normal;
 }
-.group-container2 {
+.group-container3 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1094,15 +1182,6 @@
   margin: var(--dl-space-space-twounits);
   font-style: normal;
 }
-.group-container3 {
-  flex: 0 0 auto;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
-}
 .group-container4 {
   flex: 0 0 auto;
   width: 100%;
@@ -1113,6 +1192,15 @@
   justify-content: center;
 }
 .group-container5 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
+}
+.group-container6 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1136,7 +1224,7 @@
   margin: var(--dl-space-space-twounits);
   font-style: normal;
 }
-.group-container6 {
+.group-container7 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1160,7 +1248,7 @@
   margin: var(--dl-space-space-twounits);
   font-style: normal;
 }
-.group-container7 {
+.group-container8 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -1180,7 +1268,81 @@
   border-left-width: 0px;
   border-right-width: 0px;
 }
+@media(max-width: 991px) {
+  .group-button {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .group-button1 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .group-button2 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .group-button3 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .group-button4 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .group-button5 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .group-button6 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .group-button7 {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+}
+@media(max-width: 767px) {
+  .group-canvas {
+    padding-top: 220px;
+  }
+  .group-button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .group-button1 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .group-button2 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .group-button3 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .group-button4 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .group-button5 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .group-button6 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .group-button7 {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 @media(max-width: 400px) {
+  .group-canvas {
+    padding-top: 230px;
+  }
   .group-button {
     margin-left: var(--dl-space-space-halfunit);
     margin-right: var(--dl-space-space-halfunit);
