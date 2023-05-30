@@ -50,6 +50,11 @@
   left: 0px;
   position: 0px;
 }
+.header-root-class-name {
+  top: 0px;
+  left: 0px;
+  position: 0px;
+}
 @media(max-width: 991px) {
   .header-container1 {
     flex: 1;
@@ -337,6 +342,12 @@
   display: none;
 }
 .navbar-root-class-name8 {
+  display: none;
+}
+.navbar-root-class-name5 {
+  display: none;
+}
+.navbar-root-class-name9 {
   display: none;
 }
 @media(max-width: 991px) {
@@ -962,7 +973,7 @@
   border-color: rgba(120, 120, 120, 0.4);
   border-style: hidden;
   border-width: 2px;
-  border-radius: var(--dl-radius-radius-radius8);
+  border-radius: 12px;
   flex-direction: row;
   justify-content: center;
   background-color: var(--dl-color-gray-white);

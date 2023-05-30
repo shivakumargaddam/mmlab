@@ -50,6 +50,11 @@
   left: 0px;
   position: 0px;
 }
+.header-root-class-name {
+  top: 0px;
+  left: 0px;
+  position: 0px;
+}
 @media(max-width: 991px) {
   .header-container1 {
     flex: 1;

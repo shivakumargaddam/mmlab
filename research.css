@@ -50,6 +50,11 @@
   left: 0px;
   position: 0px;
 }
+.header-root-class-name {
+  top: 0px;
+  left: 0px;
+  position: 0px;
+}
 @media(max-width: 991px) {
   .header-container1 {
     flex: 1;
@@ -337,6 +342,12 @@
   display: none;
 }
 .navbar-root-class-name8 {
+  display: none;
+}
+.navbar-root-class-name5 {
+  display: none;
+}
+.navbar-root-class-name9 {
   display: none;
 }
 @media(max-width: 991px) {
@@ -942,7 +953,7 @@
   width: 94%;
   height: auto;
   margin: 3%;
-  display: flex;
+  display: none;
   padding: var(--dl-space-space-unit);
   max-width: 1000px;
   align-items: center;
@@ -966,34 +977,39 @@
   max-height: 315px;
   min-height: auto;
 }
+.research-research {
+  flex: 0 0 auto;
+  width: 94%;
+  height: auto;
+  margin: 3%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  max-width: 1000px;
+  align-items: center;
+  border-color: var(--dl-color-gray-500);
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-radius8);
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.research-text {
+  font-style: normal;
+  margin-top: var(--dl-space-space-unit);
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+  margin-bottom: 0px;
+}
 .research-video {
   width: 100%;
   height: auto;
   margin: 3%;
   max-width: 700px;
-}
-.research-research {
-  flex: 0 0 auto;
-  width: 94%;
-  height: auto;
-  display: flex;
-  padding: var(--dl-space-space-unit);
-  max-width: 1000px;
-  margin-top: 0%;
-  align-items: center;
-  margin-left: 3%;
-  border-color: var(--dl-color-gray-500);
-  border-style: dashed;
-  border-width: 2px;
-  margin-right: 3%;
-  border-radius: var(--dl-radius-radius-radius8);
-  margin-bottom: 3%;
-  flex-direction: column;
-  justify-content: flex-start;
-}
-.research-text {
-  margin: var(--dl-space-space-unit);
-  font-style: normal;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-color: var(--dl-color-colors-accent);
+  border-style: hidden;
+  border-width: 3px;
+  border-radius: 10px;
 }
 .research-research1 {
   flex: 0 0 auto;
