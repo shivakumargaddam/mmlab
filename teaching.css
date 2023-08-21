@@ -1012,6 +1012,11 @@
   padding-left: var(--dl-space-space-halfunit);
   list-style-type: disc;
 }
+.teaching-li7 {
+  margin: var(--dl-space-space-unit);
+  padding-left: var(--dl-space-space-halfunit);
+  list-style-type: disc;
+}
 .teaching-dotted-line {
   flex: 0 0 auto;
   width: 100%;

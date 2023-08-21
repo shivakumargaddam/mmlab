@@ -1129,21 +1129,30 @@
   border-style: hidden;
   border-width: 2px;
   padding-left: 2%;
-  padding-right: 1%;
+  padding-right: 0%;
   flex-direction: column;
   padding-bottom: 1%;
 }
 .anand-text10 {
-  margin-top: 2%;
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-halfunit);
 }
 .anand-text11 {
+  font-size: 16px;
   margin-top: 1%;
-  text-align: justify;
+  text-align: left;
+  font-family: Nunito;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: none;
+  text-decoration: none;
 }
-.anand-text15 {
-  margin-top: 2%;
+.anand-text14 {
+  margin-top: var(--dl-space-space-oneandhalfunits);
 }
 .anand-ul {
+  margin-top: var(--dl-space-space-halfunit);
+  margin-bottom: var(--dl-space-space-unit);
   list-style-type: square;
   list-style-position: outside;
 }
@@ -1179,7 +1188,9 @@
   display: flex;
   padding: 4px;
   position: absolute;
+  margin-top: var(--dl-space-space-halfunit);
   align-items: center;
+  padding-left: 4px;
   flex-direction: row;
   justify-content: flex-end;
 }
