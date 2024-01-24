@@ -71,8 +71,10 @@
   --dl-size-size-bottomspace: 50px;
   --dl-space-space-fiveunits: 80px;
   --dl-space-space-fourunits: 64px;
+  --dl-radius-radius-radius12: 12px;
   --dl-space-space-threeunits: 48px;
   --dl-color-colors-background: #f5f5f5ff;
+  --dl-radius-radius-radius50p: 50%;
   --dl-color-colors-outlinegray: #c0c0c0ff;
   --dl-space-space-oneandhalfunits: 24px;
 }

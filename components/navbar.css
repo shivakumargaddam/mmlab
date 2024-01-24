@@ -18,6 +18,7 @@
   height: auto;
   display: flex;
   flex-wrap: wrap;
+  max-width: 1300px;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: hidden;

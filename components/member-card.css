@@ -16,6 +16,13 @@
   justify-content: space-between;
   background-color: var(--dl-color-gray-white);
 }
+.member-card-container {
+  flex: 0 0 auto;
+  width: var(--dl-size-size-cardheight);
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+}
 .member-card-image {
   width: var(--dl-size-size-cardheight);
   height: var(--dl-size-size-cardheight);
@@ -24,7 +31,7 @@
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
 }
-.member-card-container {
+.member-card-container1 {
   flex: 1;
   width: var(--dl-size-size-cardwidth);
   height: var(--dl-size-size-cardheight);
@@ -69,7 +76,7 @@
   text-transform: none;
   text-decoration: none;
 }
-.member-card-container1 {
+.member-card-container2 {
   flex: 0 0 auto;
   right: 8px;
   width: 100%;
@@ -174,16 +181,36 @@
     height: auto;
     max-width: 470px;
     align-items: center;
+    border-radius: var(--dl-radius-radius-radius12);
     flex-direction: column;
     justify-content: center;
   }
-  .member-card-image {
-    width: 100%;
-    height: auto;
-    border-top-right-radius: var(--dl-radius-radius-radius8);
-    border-bottom-left-radius: 0;
-  }
   .member-card-container {
+    width: 100%;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-radius4);
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(100, 149, 237, 0.66);
+    border-top-left-radius: var(--dl-radius-radius-radius12);
+    border-top-right-radius: var(--dl-radius-radius-radius12);
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .member-card-image {
+    width: 75%;
+    height: auto;
+    margin-top: 12.5%;
+    border-color: var(--dl-color-colors-accent);
+    border-style: outset;
+    border-width: 10px;
+    margin-bottom: 12.5%;
+    border-top-left-radius: var(--dl-radius-radius-radius50p);
+    border-top-right-radius: var(--dl-radius-radius-radius50p);
+    border-bottom-left-radius: var(--dl-radius-radius-radius50p);
+    border-bottom-right-radius: var(--dl-radius-radius-radius50p);
+  }
+  .member-card-container1 {
     width: 100%;
     height: auto;
     border-top-right-radius: 0;
@@ -194,7 +221,7 @@
     position: static;
     margin-left: 0px;
   }
-  .member-card-container1 {
+  .member-card-container2 {
     position: static;
   }
 }
