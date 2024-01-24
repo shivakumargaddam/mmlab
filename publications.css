@@ -618,6 +618,7 @@
   width: 100%;
   height: auto;
   display: flex;
+  margin-top: 19px;
   align-items: center;
   justify-content: flex-start;
 }
@@ -626,7 +627,7 @@
   height: 24px;
   margin: var(--dl-space-space-halfunit);
 }
-.footer-text20 {
+.footer-text19 {
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -646,7 +647,7 @@
   align-items: center;
   justify-content: flex-start;
 }
-.footer-text21 {
+.footer-text20 {
   margin-top: var(--dl-space-space-halfunit);
   margin-left: var(--dl-space-space-halfunit);
   margin-right: var(--dl-space-space-halfunit);
@@ -669,7 +670,7 @@
   height: 24px;
   margin: var(--dl-space-space-halfunit);
 }
-.footer-text22 {
+.footer-text21 {
   margin-top: var(--dl-space-space-halfunit);
   text-align: left;
   line-height: 1.25;
@@ -689,7 +690,7 @@
   height: 24px;
   margin: var(--dl-space-space-halfunit);
 }
-.footer-text32 {
+.footer-text31 {
   margin-top: var(--dl-space-space-halfunit);
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -700,7 +701,7 @@
   margin-bottom: var(--dl-space-space-twounits);
   background-color: #D9D9D9;
 }
-.footer-text33 {
+.footer-text32 {
   align-self: center;
 }
 @media(max-width: 991px) {
@@ -728,7 +729,7 @@
   .footer-text10 {
     margin-right: var(--dl-space-space-halfunit);
   }
-  .footer-text22 {
+  .footer-text21 {
     margin-right: var(--dl-space-space-halfunit);
   }
 }
@@ -739,8 +740,10 @@
   }
   .footer-quick-links {
     width: 100%;
+    margin-top: var(--dl-space-space-halfunit);
     margin-right: 0px;
     padding-left: 0px;
+    margin-bottom: var(--dl-space-space-halfunit);
     padding-right: 0px;
   }
   .footer-container03 {
@@ -751,9 +754,16 @@
   }
   .footer-contact {
     width: 100%;
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
+  }
+  .footer-container06 {
+    margin-top: 0px;
   }
   .footer-contact1 {
     width: 100%;
+    margin-top: var(--dl-space-space-halfunit);
+    margin-bottom: var(--dl-space-space-halfunit);
   }
 }
 @media(max-width: 400px) {
