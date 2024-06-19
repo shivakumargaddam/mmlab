@@ -1144,12 +1144,16 @@
   width: 100%;
   margin-bottom: var(--dl-space-space-halfunit);
 }
+.anand-link {
+  display: contents;
+}
 .anand-email {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 .anand-container08 {
   flex: 0 0 auto;
@@ -1179,12 +1183,16 @@
 .anand-text08 {
   color: var(--dl-color-gray-white);
 }
+.anand-link1 {
+  display: contents;
+}
 .anand-phone {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-decoration: none;
 }
 .anand-container10 {
   flex: 0 0 auto;
@@ -1310,7 +1318,7 @@
   width: 100%;
   height: 100%;
 }
-.anand-link {
+.anand-link2 {
   display: contents;
 }
 .anand-google-scholar {
@@ -1341,7 +1349,7 @@
   width: 100%;
   height: 100%;
 }
-.anand-link1 {
+.anand-link3 {
   display: contents;
 }
 .anand-website-resume {

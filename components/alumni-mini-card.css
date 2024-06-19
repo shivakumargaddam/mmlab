@@ -15,10 +15,12 @@
   border-radius: var(--dl-radius-radius-radius8);
   flex-direction: row;
   justify-content: space-between;
-  text-decoration: none;
   background-color: var(--dl-color-gray-white);
 }
 
+.alumni-mini-card-link {
+  display: contents;
+}
 .alumni-mini-card-container {
   flex: 1;
   width: 100%;
@@ -61,6 +63,8 @@
   text-transform: none;
   text-decoration: none;
 }
+
+
 
 
 
