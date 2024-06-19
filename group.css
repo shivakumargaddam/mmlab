@@ -1389,15 +1389,6 @@
   margin: var(--dl-space-space-twounits);
   font-style: normal;
 }
-.group-graduated {
-  flex: 0 0 auto;
-  width: 100%;
-  display: none;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  flex-direction: row;
-  justify-content: center;
-}
 .group-container09 {
   flex: 0 0 auto;
   width: 100%;
@@ -1410,7 +1401,7 @@
 .group-project-associates {
   flex: 0 0 auto;
   width: 100%;
-  display: none;
+  display: flex;
   align-items: center;
   border-color: rgba(120, 120, 120, 0.4);
   border-style: hidden;
