@@ -1,102 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>
-      Group - Anand K Kanjarla | Laboratory for Mechanics of Microstructures
-    </title>
-    <meta
-      property="og:title"
-      content="Group - Anand K Kanjarla | Laboratory for Mechanics of Microstructures"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta property="twitter:card" content="summary_large_image" />
 
-    <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Nunito;
-        font-size: 16px;
-      }
+<head>
+  <title>
+    Group - Anand K Kanjarla | Laboratory for Mechanics of Microstructures
+  </title>
+  <meta property="og:title" content="Group - Anand K Kanjarla | Laboratory for Mechanics of Microstructures" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta property="twitter:card" content="summary_large_image" />
 
-      body {
-        font-weight: 400;
-        font-style:normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.3;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+  <style data-tag="reset-style-sheet">
+    html {
+      line-height: 1.15;
+    }
 
-        null
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/animate.css@4.1.1/animate.css"
-    />
-    <link
-      rel="shortcut icon"
-      href="public/iitmlogo.png"
-      type="icon/png"
-      sizes="32x32"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink:wght@400&amp;display=swap"
-      data-tag="font"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
-    />
-  </head>
-  <body>
-    <link rel="stylesheet" href="./style.css" />
-    <div>
-      <link href="./group.css" rel="stylesheet" />
+    body {
+      margin: 0;
+    }
 
-      <div class="group-container">
-        <div class="group-canvas">
-          <div class="group-container01">
-            <header class="header-container">
-              <div class="header-container1">
-                <a
-                  href="https://www.iitm.ac.in/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="header-link"
-                >
-                  <img
-                    alt="image"
-                    src="public/images/iit_madras_logo-200h.png"
-                    class="header-image"
-                  />
+    * {
+      box-sizing: border-box;
+      border-width: 0;
+      border-style: solid;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    p,
+    li,
+    ul,
+    pre,
+    div,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    figure,
+    blockquote,
+    figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    button {
+      background-color: transparent;
+    }
+
+    button,
+    input,
+    optgroup,
+    select,
+    textarea {
+      font-family: inherit;
+      font-size: 100%;
+      line-height: 1.15;
+      margin: 0;
+    }
+
+    button,
+    select {
+      text-transform: none;
+    }
+
+    button,
+    [type="button"],
+    [type="reset"],
+    [type="submit"] {
+      -webkit-appearance: button;
+      color: inherit;
+    }
+
+    button::-moz-focus-inner,
+    [type="button"]::-moz-focus-inner,
+    [type="reset"]::-moz-focus-inner,
+    [type="submit"]::-moz-focus-inner {
+      border-style: none;
+      padding: 0;
+    }
+
+    button:-moz-focus,
+    [type="button"]:-moz-focus,
+    [type="reset"]:-moz-focus,
+    [type="submit"]:-moz-focus {
+      outline: 1px dotted ButtonText;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    input {
+      padding: 2px 4px;
+    }
+
+    img {
+      display: block;
+    }
+
+    details {
+      display: block;
+      margin: 0;
+      padding: 0;
+    }
+
+    summary::-webkit-details-marker {
+      display: none;
+    }
+
+    [data-thq="accordion"] [data-thq="accordion-content"] {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-in-out;
+      padding: 0;
+    }
+
+    [data-thq="accordion"] details[data-thq="accordion-trigger"][open]+[data-thq="accordion-content"] {
+      max-height: 1000vh;
+    }
+
+    details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {
+      transform: rotate(180deg);
+    }
+
+    html {
+      scroll-behavior: smooth
+    }
+  </style>
+  <style data-tag="default-style-sheet">
+    html {
+      font-family: Nunito;
+      font-size: 16px;
+    }
+
+    body {
+      font-weight: 400;
+      font-style: normal;
+      text-decoration: none;
+      text-transform: none;
+      letter-spacing: normal;
+      line-height: 1.3;
+      color: var(--dl-color-gray-black);
+      background: var(--dl-color-gray-white);
+
+      fill: var(--dl-color-gray-black);
+    }
+  </style>
+  <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+  <link rel="shortcut icon" href="public/iitmlogo.png" type="icon/png" sizes="32x32" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://candyfonts.com/wp-data/2018/10/26/11538/HELR45W.ttf" data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink:wght@400&amp;display=swap"
+    data-tag="font" />
+  <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+</head>
+
+<body>
+  <link rel="stylesheet" href="./style.css" />
+  <div>
+    <link href="./group.css" rel="stylesheet" />
+
+    <div class="group-container10">
+      <div class="group-canvas">
+        <div class="group-container11">
+          <header-wrapper class="header-wrapper">
+            <!--Header component-->
+            <header class="header-container1 header">
+              <div class="header-container2">
+                <a href="https://www.iitm.ac.in/" target="_blank" rel="noreferrer noopener" class="header-link">
+                  <img alt="image" src="public/images/iit_madras_logo-200h.png" class="header-image" />
                 </a>
                 <a href="index.html" class="header-navlink">
-                  <div class="header-container2">
-                    <span class="header-text GroupName">
+                  <div class="header-container3">
+                    <span class="header-text1 GroupName">
                       <span>Laboratory for Mechanics of Microstructures</span>
                     </span>
-                    <span class="header-text1">
+                    <span class="header-text2">
                       <span>
                         Department of Metallurgical and Materials&nbsp;
                         Engineering, IIT Madras.
@@ -107,133 +192,64 @@
                 </a>
               </div>
             </header>
-            <div class="group-navbar">
-              <div class="group-container02">
-                <a href="index.html" class="group-button">Home</a>
-                <a href="anand.html" class="group-button1">Anand</a>
-                <a href="group.html" class="group-button2">Group</a>
-                <a href="research.html" class="group-button3">Research</a>
-                <a href="alumni.html" class="group-button4">Alumni</a>
-                <a href="publications.html" class="group-button5">
-                  Publications
-                </a>
-                <a href="teaching.html" class="group-button6">Teaching</a>
-                <a href="openings.html" class="group-button7">Openings</a>
-              </div>
+          </header-wrapper>
+          <div class="group-navbar">
+            <div class="group-container12">
+              <a href="index.html" class="group-button1">Home</a>
+              <a href="anand.html" class="group-button2">Anand</a>
+              <a href="group.html" class="group-button3">Group</a>
+              <a href="research.html" class="group-button4">Research</a>
+              <a href="alumni.html" class="group-button5">Alumni</a>
+              <a href="publications.html" class="group-button6">
+                Publications
+              </a>
+              <a href="teaching.html" class="group-button7">Teaching</a>
+              <a href="openings.html" class="group-button8">Openings</a>
             </div>
           </div>
-          <div class="navbar-navbar navbar-root-class-name2">
+        </div>
+        <navbar-wrapper class="navbar-wrapper" rootclassname="navbarundefined">
+          <!--Navbar component-->
+          <div class="navbar-navbar navbarroot-class-name2">
             <div class="navbar-container">
-              <a href="index.html" class="navbar-button"><span>Home</span></a>
-              <a href="anand.html" class="navbar-button1"><span>Anand</span></a>
-              <a href="group.html" class="navbar-button2"><span>Group</span></a>
-              <a href="research.html" class="navbar-button3">
+              <a href="index.html" class="navbar-button1">
+                <span>Home</span>
+              </a>
+              <a href="anand.html" class="navbar-button2">
+                <span>Anand</span>
+              </a>
+              <a href="group.html" class="navbar-button3">
+                <span>Group</span>
+              </a>
+              <a href="research.html" class="navbar-button4">
                 <span>Research</span>
               </a>
-              <a href="alumni.html" class="navbar-button4">
+              <a href="alumni.html" class="navbar-button5">
                 <span>Alumni</span>
               </a>
-              <a href="publications.html" class="navbar-button5">
+              <a href="publications.html" class="navbar-button6">
                 <span>Publications</span>
               </a>
-              <a href="teaching.html" class="navbar-button6">
+              <a href="teaching.html" class="navbar-button7">
                 <span>Teaching</span>
               </a>
-              <a href="openings.html" class="navbar-button7">
+              <a href="openings.html" class="navbar-button8">
                 <span>Openings</span>
               </a>
             </div>
           </div>
-          <div class="group-postdoctoral-fellows">
-            <span class="group-text Heading2">Postdoctoral Fellows</span>
-            <div class="group-container03">
-              <div class="member-card-member-card member-card-root-class-name3">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/darshan_chalapathi-1400w.jpg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
-                </div>
+        </navbar-wrapper>
+        <div class="group-postdoctoral-fellows">
+          <span class="group-text1 Heading2">Postdoctoral Fellows</span>
+          <div class="group-container13">
+            <member-card-wrapper class="member-card-wrapper" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card member-cardroot-class-name2">
                 <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Darshan Chalapathi</span>
-                  </span>
-                  <span class="member-card-year-of-joining Content">
-                    <span>Jan 2023</span>
-                  </span>
-                  <span class="member-card-email Content">
-                    <span>Email: subbi1darshan@gmail.com</span>
-                  </span>
-                  <span class="member-card-area-of-research Content">
-                    <span>
-                      Area of Research: deformation behavior of materials,
-                      crystal plasticity, thermomechanical processing,
-                      crystallographic textures, ferrous alloys
-                    </span>
-                  </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="http://www.linkedin.com/in/darshan-chalapathi-a07615237"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
-                          <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="https://scholar.google.co.in/citations?user=znQMZcMAAAAJ&amp;hl"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
-                          <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="https://darshanchalapathi.notion.site/darshanchalapathi/Darshan-Chalapathi-505f1353b5c248c68ff8c0ffcee56fc9"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
-                          <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
+                  <img alt="image" src="public/people/rmraghav-1400w.jpg" loading="eager" class="member-card-image" />
                 </div>
-              </div>
-              <div class="member-card-member-card member-card-root-class-name2">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/rmraghav-1400w.jpg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
-                </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
+                <div class="member-card-container2">
+                  <span class="member-card-name">
                     <span>Raghavendra R M</span>
                   </span>
                   <span class="member-card-year-of-joining Content">
@@ -250,1081 +266,891 @@
                   </span>
                   <span class="member-card-co-guide">
                     <span>
-                      In collaboration with Prof. Ilaksh Adlakha (Applied
-                      Mechanics)
+                      In collaboration with Prof. Ilaksh Adlakha (AM&BE)
                     </span>
                   </span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/raghavendra-r-m-629988192/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
+                  <div class="member-card-container3">
+                    <a href="https://www.linkedin.com/in/raghavendra-r-m-629988192/" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link1">
                       <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon1">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://scholar.google.com/citations?user=qkaI6hcAAAAJ&amp;hl=en"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
+                    <a href="https://scholar.google.com/citations?user=qkaI6hcAAAAJ&amp;hl=en" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link2">
                       <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon3">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link3">
                       <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon5">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
+            </member-card-wrapper>
+            <member-card-wrapper-2flc class="member-card-wrapper-2flc" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card1 member-cardroot-class-name3">
+                <div class="member-card-container4">
+                  <img alt="Harikrishna" src="https://play.teleporthq.io/static/svg/default-img.svg" loading="eager"
+                    class="member-card-image1" />
+                </div>
+                <div class="member-card-container5">
+                  <span class="member-card-name1">
+                    <span>Hari</span>
+                  </span>
+                  <span class="member-card-year-of-joining1 Content">
+                    <span>Jun 2025</span>
+                  </span>
+                  <span class="member-card-email1 Content">
+                    <span>Email: </span>
+                  </span>
+                  <span class="member-card-area-of-research1 Content">
+                    <span>
+                      Area of Research:
+                    </span>
+                  </span>
+                  <span class="member-card-co-guide1"><span></span></span>
+                  <div class="member-card-container6">
+                    <a href="http://www.linkedin.com/in/" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link4">
+                      <div class="member-card-linked-in1">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon7">
+                          <path
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="https://scholar.google.co.in/citations?" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link5">
+                      <div class="member-card-google-scholar1">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon9">
+                          <path
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link6">
+                      <div class="member-card-website-resume1">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon11">
+                          <path
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </member-card-wrapper-2flc>
           </div>
-          <div class="group-ph-d-students">
-            <span class="group-text1 Heading2">Ph.D. Students</span>
-            <div class="group-container04">
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/sarnath-1400w.jpeg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+        </div>
+        <div class="group-ph-d-students">
+          <span class="group-text2 Heading2">Ph.D. Students</span>
+          <div class="group-container14">
+            <member-card-wrapper-cw88 class="member-card-wrapper-cw88">
+              <!--MemberCard component-->
+              <div class="member-card-member-card2 member-card">
+                <div class="member-card-container7">
+                  <img alt="image" src="public/people/avinash_phd-1100w.jpg" loading="eager"
+                    class="member-card-image2" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Sarnath Singh</span>
-                  </span>
-                  <span class="member-card-year-of-joining Content">
-                    <span>Jul 2018</span>
-                  </span>
-                  <span class="member-card-email Content">
-                    <span>Email: sarnath.rram@gmail.com</span>
-                  </span>
-                  <span class="member-card-area-of-research Content">
-                    <span>
-                      Area of Research: Modelling fracture propagation in
-                      multiphase materials.
-                    </span>
-                  </span>
-                  <span class="member-card-co-guide">
-                    <span>
-                      Co-Guide: Prof. Ratna Kumar Annabatula (Mechanical)
-                    </span>
-                  </span>
-                  <div class="member-card-container2">
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
-                          <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
-                          <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
-                          <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/avinash_phd-1100w.jpg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
-                </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
+                <div class="member-card-container8">
+                  <span class="member-card-name2">
                     <span>Avinash Gonnabattula</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
+                  <span class="member-card-year-of-joining2 Content">
                     <span>Jan 2020</span>
                   </span>
-                  <span class="member-card-email Content">
+                  <span class="member-card-email2 Content">
                     <span>Email: avinash2462@gmail.com</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research2 Content">
                     <span>
                       Area of Research: Mechanics of 3D printed Ti64 alloy.
                     </span>
                   </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/avinash2462/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <span class="member-card-co-guide2"><span></span></span>
+                  <div class="member-card-container9">
+                    <a href="https://www.linkedin.com/in/avinash2462/" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link7">
+                      <div class="member-card-linked-in2">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon13">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link8">
+                      <div class="member-card-google-scholar2">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon15">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://avinash2462.wixsite.com/my-site"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="https://avinash2462.wixsite.com/my-site" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link9">
+                      <div class="member-card-website-resume2">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon17">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="member-card-member-card member-card-root-class-name6">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+            </member-card-wrapper-cw88>
+            <member-card-wrapper-dpkn class="member-card-wrapper-dpkn">
+              <!--MemberCard component-->
+              <div class="member-card-member-card3 member-card">
+                <div class="member-card-container10">
+                  <img alt="image" src="public/people/mohith-1100w.jpeg" loading="eager" class="member-card-image3" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Veerabhadra Veeramusti</span>
-                  </span>
-                  <span class="member-card-year-of-joining Content">
-                    <span>Jan 2019</span>
-                  </span>
-                  <span class="member-card-email Content">
-                    <span>Email: veerabhadra1418@gmail.com</span>
-                  </span>
-                  <span class="member-card-area-of-research Content">
-                    <span>
-                      Area of Research: Defromation behavior of Magnesium
-                      alloys.
-                    </span>
-                  </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/veerabhadra-4896"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
-                          <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="https://scholar.google.com/citations?user=NpF8i2QAAAAJ&amp;hl=fr"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
-                          <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="https://www.researchgate.net/profile/Veerabhadra-Veeramusti"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
-                          <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="group-container05">
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/mohith-1400w.jpeg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
-                </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
+                <div class="member-card-container11">
+                  <span class="member-card-name3">
                     <span>Mohit Murlidhar Ludhwani</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
+                  <span class="member-card-year-of-joining3 Content">
                     <span>Jan 2021</span>
                   </span>
-                  <span class="member-card-email Content">
+                  <span class="member-card-email3 Content">
                     <span>Email: mohit1031996@gmail.com</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research3 Content">
                     <span>
                       Area of Research: Microstructure informed modelling of
                       fatigue behavior.
                     </span>
                   </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/mohit-ludhwani-391881175/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <span class="member-card-co-guide3"><span></span></span>
+                  <div class="member-card-container12">
+                    <a href="https://www.linkedin.com/in/mohit-ludhwani-391881175/" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link10">
+                      <div class="member-card-linked-in3">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon19">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://scholar.google.com/citations?hl=en&amp;user=C_EEcrgAAAAJ"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="https://scholar.google.com/citations?hl=en&amp;user=C_EEcrgAAAAJ" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link11">
+                      <div class="member-card-google-scholar3">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon21">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://www.researchgate.net/profile/Mohit-Ludhwani"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="https://www.researchgate.net/profile/Mohit-Ludhwani" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link12">
+                      <div class="member-card-website-resume3">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon23">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/shiva-1100w.jpeg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+            </member-card-wrapper-dpkn>
+          </div>
+          <div class="group-container15">
+            <member-card-wrapper-ccxy class="member-card-wrapper-ccxy">
+              <!--MemberCard component-->
+              <div class="member-card-member-card4 member-card">
+                <div class="member-card-container13">
+                  <img alt="image" src="public/people/shiva-1100w.jpeg" loading="eager" class="member-card-image4" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Gaddam Shiva Kumar</span>
+                <div class="member-card-container14">
+                  <span class="member-card-name4">
+                    <span>Shiva Kumar Gaddam</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
+                  <span class="member-card-year-of-joining4 Content">
                     <span>Jul 2022</span>
                   </span>
-                  <span class="member-card-email Content">
+                  <span class="member-card-email4 Content">
                     <span>Email: shivakumar.gdm@gmail.com</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research4 Content">
                     <span>
                       Area of Research: Computational study of initiation and
                       propagation of cracks in metallic materials.
                     </span>
                   </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/shivakumargaddam/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <span class="member-card-co-guide4"><span></span></span>
+                  <div class="member-card-container15">
+                    <a href="https://www.linkedin.com/in/shivakumargaddam/" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link13">
+                      <div class="member-card-linked-in4">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon25">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://scholar.google.com/citations?user=oZhISgsAAAAJ&amp;hl"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="https://scholar.google.com/citations?user=oZhISgsAAAAJ&amp;hl" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link14">
+                      <div class="member-card-google-scholar4">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon27">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://shivakumargaddam.github.io"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="https://shivakumargaddam.github.io" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link15">
+                      <div class="member-card-website-resume4">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon29">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="group-container06">
-              <div class="member-card-member-card member-card-root-class-name1">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/mahesh_phd-1400w.jpg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+            </member-card-wrapper-ccxy>
+            <member-card-wrapper-jyxr class="member-card-wrapper-jyxr">
+              <!--MemberCard component-->
+              <div class="member-card-member-card5 member-card">
+                <div class="member-card-container16">
+                  <img alt="image" src="public/people/vikrant-1100w.jpg" loading="eager" class="member-card-image5" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
+                <div class="member-card-container17">
+                  <span class="member-card-name5">
+                    <span>Vikrant Saumitra</span>
+                  </span>
+                  <span class="member-card-year-of-joining5 Content">
+                    <span>Sep 2023</span>
+                  </span>
+                  <span class="member-card-email5 Content">
+                    <span>Email: saumitravikrant@gmail.com</span>
+                  </span>
+                  <span class="member-card-area-of-research5 Content">
+                    <span>
+                      Area of Research: Characterization and deformation
+                      studies in 3D printed Ti-6Al-4V
+                    </span>
+                  </span>
+                  <span class="member-card-co-guide5"><span></span></span>
+                  <div class="member-card-container18">
+                    <a href="https://www.linkedin.com/in/vikrant-saumitra-34353a133" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link16">
+                      <div class="member-card-linked-in5">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon31">
+                          <path
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=Wcr2ytwAAAAJ&amp;hl=en&amp;oi=ao" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link17">
+                      <div class="member-card-google-scholar5">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon33">
+                          <path
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link18">
+                      <div class="member-card-website-resume5">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon35">
+                          <path
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </member-card-wrapper-jyxr>
+          </div>
+          <div class="group-container16">
+            <member-card-wrapper-t8lo class="member-card-wrapper-t8lo" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card6 member-cardroot-class-name1">
+                <div class="member-card-container19">
+                  <img alt="Muhaiyuddin" src="public/people/muhaiyuddin.jpeg" loading="eager"
+                    class="member-card-image6" />
+                </div>
+                <div class="member-card-container20">
+                  <span class="member-card-name6">
+                    <span>Muhaiyuddin</span>
+                  </span>
+                  <span class="member-card-year-of-joining6 Content">
+                    <span>Jun 2025</span>
+                  </span>
+                  <span class="member-card-email6 Content">
+                    <span>Email: muhaiyuddin.s@gmail.com</span>
+                  </span>
+                  <span class="member-card-area-of-research6 Content">
+                    <span>
+                      Area of Research: Coupled hydrogen diffusion and
+                      mechanics
+                    </span>
+                  </span>
+                  <span class="member-card-co-guide6">
+                    <span>
+                      co-guided with: Prof. Ilaksh Adlakha (AM&BE)
+                    </span>
+                  </span>
+                  <div class="member-card-container21">
+                    <a href="https://www.linkedin.com/in/muhaiyuddin" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link19">
+                      <div class="member-card-linked-in6">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon37">
+                          <path
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link20">
+                      <div class="member-card-google-scholar6">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon39">
+                          <path
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link21">
+                      <div class="member-card-website-resume6">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon41">
+                          <path
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </member-card-wrapper-t8lo>
+          </div>
+          <div class="group-archive">
+            <member-card-wrapper-3g90 class="member-card-wrapper-3g90" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card7 member-cardroot-class-name6">
+                <div class="member-card-container22">
+                  <img alt="image" src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg" loading="eager"
+                    class="member-card-image7" />
+                </div>
+                <div class="member-card-container23">
+                  <span class="member-card-name7">
+                    <span>Veerabhadra Veeramusti</span>
+                  </span>
+                  <span class="member-card-year-of-joining7 Content">
+                    <span>Jan 2019</span>
+                  </span>
+                  <span class="member-card-email7 Content">
+                    <span>Email: veerabhadra1418@gmail.com</span>
+                  </span>
+                  <span class="member-card-area-of-research7 Content">
+                    <span>
+                      Area of Research: Defromation behavior of Magnesium
+                      alloys.
+                    </span>
+                  </span>
+                  <span class="member-card-co-guide7"><span></span></span>
+                  <div class="member-card-container24">
+                    <a href="https://www.linkedin.com/in/veerabhadra-4896" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link22">
+                      <div class="member-card-linked-in7">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon43">
+                          <path
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="https://scholar.google.com/citations?user=NpF8i2QAAAAJ&amp;hl=fr" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link23">
+                      <div class="member-card-google-scholar7">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon45">
+                          <path
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="https://www.researchgate.net/profile/Veerabhadra-Veeramusti" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link24">
+                      <div class="member-card-website-resume7">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon47">
+                          <path
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </member-card-wrapper-3g90>
+            <member-card-wrapper-vc77 class="member-card-wrapper-vc77" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card8 member-cardroot-class-name9">
+                <div class="member-card-container25">
+                  <img alt="image" src="public/people/sarnath-1100w.jpeg" loading="eager" class="member-card-image8" />
+                </div>
+                <div class="member-card-container26">
+                  <span class="member-card-name8">
+                    <span>Sarnath Singh</span>
+                  </span>
+                  <span class="member-card-year-of-joining8 Content">
+                    <span>Jul 2018</span>
+                  </span>
+                  <span class="member-card-email8 Content">
+                    <span>Email: sarnath.rram@gmail.com</span>
+                  </span>
+                  <span class="member-card-area-of-research8 Content">
+                    <span>
+                      Area of Research: Phase-field modeling of damage and
+                      brittle fracture in multi-phase material
+                    </span>
+                  </span>
+                  <span class="member-card-co-guide8">
+                    <span>
+                      Co-Guide: Prof. Ratna Kumar Annabatula (Mechanical)
+                    </span>
+                  </span>
+                  <div class="member-card-container27">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link25">
+                      <div class="member-card-linked-in8">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon49">
+                          <path
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link26">
+                      <div class="member-card-google-scholar8">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon51">
+                          <path
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link27">
+                      <div class="member-card-website-resume8">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon53">
+                          <path
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
+                        </svg>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </member-card-wrapper-vc77>
+            <member-card-wrapper-qo5x class="member-card-wrapper-qo5x" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card9 member-cardroot-class-name7">
+                <div class="member-card-container28">
+                  <img alt="image" src="https://play.teleporthq.io/static/svg/placeholders/no-image.svg" loading="eager"
+                    class="member-card-image9" />
+                </div>
+                <div class="member-card-container29">
+                  <span class="member-card-name9">
                     <span>Mahesh Arunprasath</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
+                  <span class="member-card-year-of-joining9 Content">
                     <span>Aug 2023</span>
                   </span>
-                  <span class="member-card-email Content">
+                  <span class="member-card-email9 Content">
                     <span>Email: maheshsaifeb20@gmail.com</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research9 Content">
                     <span>
                       Area of Research: Atomistically informed coupled
                       chemo-mechanical crystal plasticity framework.
                     </span>
                   </span>
-                  <span class="member-card-co-guide">
+                  <span class="member-card-co-guide9">
                     <span>
                       co-guided with: Prof. Ilaksh Adlakha (Applied Mechanics)
                     </span>
                   </span>
-                  <div class="member-card-container2">
-                    <a
-                      href="http://www.linkedin.com/in/mahesh-arunprasath-0436a3196"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <div class="member-card-container30">
+                    <a href="http://www.linkedin.com/in/mahesh-arunprasath-0436a3196" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link28">
+                      <div class="member-card-linked-in9">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon55">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link29">
+                      <div class="member-card-google-scholar9">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon57">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link30">
+                      <div class="member-card-website-resume9">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon59">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/vikrant-1100w.jpg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+            </member-card-wrapper-qo5x>
+            <member-card-wrapper-34fs class="member-card-wrapper-34fs" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card10 member-cardroot-class-name8">
+                <div class="member-card-container31">
+                  <img alt="image" src="https://play.teleporthq.io/static/svg/default-img.svg" loading="eager"
+                    class="member-card-image10" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Vikrant Saumitra</span>
+                <div class="member-card-container32">
+                  <span class="member-card-name10">
+                    <span>Achal H P</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
-                    <span>Sep 2023</span>
+                  <span class="member-card-year-of-joining10 Content">
+                    <span>Jul 2024</span>
                   </span>
-                  <span class="member-card-email Content">
-                    <span>Email: saumitravikrant@gmail.com</span>
+                  <span class="member-card-email10 Content">
+                    <span>Email:</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
-                    <span>
-                      Area of Research: Characterization and deformation studies
-                      in 3D printed Ti-6Al-4V
-                    </span>
+                  <span class="member-card-area-of-research10 Content">
+                    <span>Area of Research:</span>
                   </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/vikrant-saumitra-34353a133"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <span class="member-card-co-guide10"><span></span></span>
+                  <div class="member-card-container33">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link31">
+                      <div class="member-card-linked-in10">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon61">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://scholar.google.com/citations?user=Wcr2ytwAAAAJ&amp;hl=en&amp;oi=ao"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="https://scholar.google.com/citations?user=Wcr2ytwAAAAJ&amp;hl=en&amp;oi=ao" target="_blank"
+                      rel="noreferrer noopener" class="member-card-link32">
+                      <div class="member-card-google-scholar10">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon63">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="https://gaddamshivakumar.wordpress.com/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link33">
+                      <div class="member-card-website-resume10">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon65">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="group-container07">
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/vikrant-1100w.jpg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
-                </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Vikrant Saumitra</span>
-                  </span>
-                  <span class="member-card-year-of-joining Content">
-                    <span>Sep 2023</span>
-                  </span>
-                  <span class="member-card-email Content">
-                    <span>Email: saumitravikrant@gmail.com</span>
-                  </span>
-                  <span class="member-card-area-of-research Content">
-                    <span>
-                      Area of Research: Characterization and deformation studies
-                      in 3D printed Ti-6Al-4V
-                    </span>
-                  </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/vikrant-saumitra-34353a133"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
-                          <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="https://scholar.google.com/citations?user=Wcr2ytwAAAAJ&amp;hl=en&amp;oi=ao"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
-                          <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="https://gaddamshivakumar.wordpress.com/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
-                          <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </member-card-wrapper-34fs>
           </div>
-          <div class="group-ms-students">
-            <span class="group-text2 Heading2">MS Students</span>
-            <div class="group-container08">
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/jayavarshini-1400w.png"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+        </div>
+        <div class="group-ms-students">
+          <span class="group-text3 Heading2">MS Students</span>
+          <div class="group-container17">
+            <member-card-wrapper-nx1c class="member-card-wrapper-nx1c">
+              <!--MemberCard component-->
+              <div class="member-card-member-card11 member-card">
+                <div class="member-card-container34">
+                  <img alt="image" src="public/people/jayavarshini-1400w.png" loading="eager"
+                    class="member-card-image11" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
+                <div class="member-card-container35">
+                  <span class="member-card-name11">
                     <span>Jayavarshini E</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
+                  <span class="member-card-year-of-joining11 Content">
                     <span>Jan 2021</span>
                   </span>
-                  <span class="member-card-email Content">
+                  <span class="member-card-email11 Content">
                     <span>Email: xxxxxxxx@smail.iitm.ac.in</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research11 Content">
                     <span>
                       Area of Research: Role of hydrogen on deformation in
                       steels
                     </span>
                   </span>
-                  <span class="member-card-co-guide">
+                  <span class="member-card-co-guide11">
                     <span>Joint guidance: Prof. Lakshman Neelakantan</span>
                   </span>
-                  <div class="member-card-container2">
-                    <a
-                      href=""
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <div class="member-card-container36">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link34">
+                      <div class="member-card-linked-in11">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon67">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href=""
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link35">
+                      <div class="member-card-google-scholar11">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon69">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href=""
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link36">
+                      <div class="member-card-website-resume11">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon71">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="member-card-member-card member-card-root-class-name">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="https://play.teleporthq.io/static/svg/default-img.svg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+            </member-card-wrapper-nx1c>
+            <member-card-wrapper-9kac class="member-card-wrapper-9kac" rootclassname="member-cardundefined">
+              <!--MemberCard component-->
+              <div class="member-card-member-card12 member-cardroot-class-name">
+                <div class="member-card-container37">
+                  <img alt="image" src="https://play.teleporthq.io/static/svg/default-img.svg" loading="eager"
+                    class="member-card-image12" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
+                <div class="member-card-container38">
+                  <span class="member-card-name12">
                     <span>Firstname Middlename Lastname</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
+                  <span class="member-card-year-of-joining12 Content">
                     <span>Month 20xx</span>
                   </span>
-                  <span class="member-card-email Content">
+                  <span class="member-card-email12 Content">
                     <span>Email: xxxxxxxx@smail.iitm.ac.in</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research12 Content">
                     <span>Area of Research:</span>
                   </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href=""
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <span class="member-card-co-guide12"><span></span></span>
+                  <div class="member-card-container39">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link37">
+                      <div class="member-card-linked-in12">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon73">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href=""
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link38">
+                      <div class="member-card-google-scholar12">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon75">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href=""
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="" target="_blank" rel="noreferrer noopener" class="member-card-link39">
+                      <div class="member-card-website-resume12">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon77">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
+            </member-card-wrapper-9kac>
           </div>
-          <div class="group-m-tech-students">
-            <span class="group-text3 Heading2">M.Tech. Students</span>
-            <div class="group-container09">
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/mt24_pavan-1100w.jpeg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+        </div>
+        <div class="group-m-tech-students">
+          <span class="group-text4 Heading2">M.Tech. Students</span>
+          <div class="group-container18">
+            <member-card-wrapper-ml1d class="member-card-wrapper-ml1d">
+              <!--MemberCard component-->
+              <div class="member-card-member-card13 member-card">
+                <div class="member-card-container40">
+                  <img alt="Anirvin" src="public/people/mt25_anirvin.jpeg" loading="eager"
+                    class="member-card-image13" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Pavan Kumar Taduvai</span>
+                <div class="member-card-container41">
+                  <span class="member-card-name13">
+                    <span>Anirvin Yenni</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
-                    <span>Jun 2024</span>
+                  <span class="member-card-year-of-joining13 Content">
+                    <span>Jun 2025</span>
                   </span>
-                  <span class="member-card-email Content">
-                    <span>Email: ptaduvai@gmail.com</span>
+                  <span class="member-card-email13 Content">
+                    <span>Email: anirvinyenni4@gmail.com</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research13 Content">
                     <span>
-                      Area of research : Modelling of residual stresses in
-                      additively manufactured nickel and titanium based alloys.
+                      Area of research: Computational fracture mechanics
                     </span>
                   </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="https://www.linkedin.com/in/pavan-kumar-taduvai-05a119156/"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <span class="member-card-co-guide13"><span></span></span>
+                  <div class="member-card-container42">
+                    <a href="https://www.linkedin.com/in/anirvinyenni" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link40">
+                      <div class="member-card-linked-in13">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon79">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link41">
+                      <div class="member-card-google-scholar13">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon81">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link42">
+                      <div class="member-card-website-resume13">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon83">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/mt24_prabhu-1100w.jpeg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
-                </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
-                    <span>Shyam Sunder Prabhu S</span>
-                  </span>
-                  <span class="member-card-year-of-joining Content">
-                    <span>Jun 2024</span>
-                  </span>
-                  <span class="member-card-email Content">
-                    <span>Email: shyamprabhu92@gmail.com</span>
-                  </span>
-                  <span class="member-card-area-of-research Content">
-                    <span>
-                      Area of Research: Remanant useful life of aeroengine
-                      components undergoing in-service fatigue-creep damage.
-                    </span>
-                  </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="http://www.linkedin.com/in/shyam-sunder-prabhu-s"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
-                          <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
-                          <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
-                          <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
-                        </svg>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
+            </member-card-wrapper-ml1d>
           </div>
-          <div class="group-project-associates">
-            <span class="group-text4 Heading2">Research Fellow</span>
-            <div class="group-container10">
-              <div class="member-card-member-card">
-                <div class="member-card-container">
-                  <img
-                    alt="image"
-                    src="public/people/mt23_vishal-1100w.jpeg"
-                    loading="eager"
-                    class="member-card-image"
-                  />
+        </div>
+        <div class="group-project-associates">
+          <span class="group-text5 Heading2">Research Fellow</span>
+          <div class="group-container19">
+            <member-card-wrapper-xirc class="member-card-wrapper-xirc">
+              <!--MemberCard component-->
+              <div class="member-card-member-card14 member-card">
+                <div class="member-card-container43">
+                  <img alt="image" src="public/people/mt23_vishal-1100w.jpeg" loading="eager"
+                    class="member-card-image14" />
                 </div>
-                <div class="member-card-container1">
-                  <span class="member-card-name Heading3">
+                <div class="member-card-container44">
+                  <span class="member-card-name14">
                     <span>Vishal Kumar Kadambala</span>
                   </span>
-                  <span class="member-card-year-of-joining Content">
+                  <span class="member-card-year-of-joining14 Content">
                     <span>Jun 2024</span>
                   </span>
-                  <span class="member-card-email Content">
+                  <span class="member-card-email14 Content">
                     <span>Email: kadambalavishalkumar2001@gmail.com</span>
                   </span>
-                  <span class="member-card-area-of-research Content">
+                  <span class="member-card-area-of-research14 Content">
                     <span>
                       Area of Research: Synergistic effects of hydrogen on
                       deformation behaviour of Dual-Phase steels
                     </span>
                   </span>
-                  <span class="member-card-co-guide"><span></span></span>
-                  <div class="member-card-container2">
-                    <a
-                      href="http://www.linkedin.com/in/vishal-kadambala"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link"
-                    >
-                      <div class="member-card-linked-in">
-                        <svg
-                          viewBox="0 0 877.7142857142857 1024"
-                          class="member-card-icon"
-                        >
+                  <span class="member-card-co-guide14"><span></span></span>
+                  <div class="member-card-container45">
+                    <a href="http://www.linkedin.com/in/vishal-kadambala" target="_blank" rel="noreferrer noopener"
+                      class="member-card-link43">
+                      <div class="member-card-linked-in14">
+                        <svg viewBox="0 0 877.7142857142857 1024" class="member-card-icon85">
                           <path
-                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
-                          ></path>
+                            d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link1"
-                    >
-                      <div class="member-card-google-scholar">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon2">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link44">
+                      <div class="member-card-google-scholar14">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon87">
                           <path
-                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z"
-                          ></path>
+                            d="M512 128l470 256v342h-86v-296l-384 210-470-256zM214 562l298 164 298-164v172l-298 162-298-162v-172z">
+                          </path>
                         </svg>
                       </div>
                     </a>
-                    <a
-                      href="#"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="member-card-link2"
-                    >
-                      <div class="member-card-website-resume">
-                        <svg viewBox="0 0 1024 1024" class="member-card-icon4">
+                    <a href="#" target="_blank" rel="noreferrer noopener" class="member-card-link45">
+                      <div class="member-card-website-resume14">
+                        <svg viewBox="0 0 1024 1024" class="member-card-icon89">
                           <path
-                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z"
-                          ></path>
+                            d="M725.333 554.667v256c0 11.776-4.736 22.4-12.501 30.165s-18.389 12.501-30.165 12.501h-469.333c-11.776 0-22.4-4.736-30.165-12.501s-12.501-18.389-12.501-30.165v-469.333c0-11.776 4.736-22.4 12.501-30.165s18.389-12.501 30.165-12.501h256c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-256c-35.328 0-67.413 14.379-90.496 37.504s-37.504 55.168-37.504 90.496v469.333c0 35.328 14.379 67.413 37.504 90.496s55.168 37.504 90.496 37.504h469.333c35.328 0 67.413-14.379 90.496-37.504s37.504-55.168 37.504-90.496v-256c0-23.552-19.115-42.667-42.667-42.667s-42.667 19.115-42.667 42.667zM456.832 627.499l396.501-396.501v153.003c0 23.552 19.115 42.667 42.667 42.667s42.667-19.115 42.667-42.667v-256c0-5.803-1.152-11.307-3.243-16.341s-5.163-9.728-9.216-13.781c-0.043-0.043-0.043-0.043-0.085-0.085-3.925-3.925-8.619-7.083-13.781-9.216-5.035-2.091-10.539-3.243-16.341-3.243h-256c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667h153.003l-396.501 396.501c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0z">
+                          </path>
                         </svg>
                       </div>
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
+            </member-card-wrapper-xirc>
           </div>
-          <div class="group-dotted-line"></div>
+        </div>
+        <div class="group-dotted-line"></div>
+        <footer-wrapper class="footer-wrapper">
+          <!--Footer component-->
           <div class="footer-footer">
-            <div class="footer-container">
-              <div class="footer-container01">
-                <a href="index.html" class="footer-navlink">
-                  <div class="footer-container02">
-                    <span class="footer-text Heading3">
+            <div class="footer-container10">
+              <div class="footer-container11">
+                <a href="index.html" class="footer-navlink1">
+                  <div class="footer-container12">
+                    <span class="footer-text10 Heading3">
                       <span>Laboratory for&nbsp;</span>
                       <br />
                       <span>Mechanics of Microstructures</span>
                       <br />
                     </span>
-                    <span class="footer-text05 Heading3">
+                    <span class="footer-text15 Heading3">
                       <span>Laboratory for&nbsp;</span>
                       <span>Mechanics of Microstructures</span>
                       <br />
@@ -1336,40 +1162,36 @@
                     <span class="footer-heading Heading3">
                       <span>Quick Links</span>
                     </span>
-                    <div class="footer-container03">
-                      <a href="index.html" class="footer-navlink1">
+                    <div class="footer-container13">
+                      <a href="index.html" class="footer-navlink2">
                         <span>Home</span>
                       </a>
-                      <a href="anand.html" class="footer-navlink2">
+                      <a href="anand.html" class="footer-navlink3">
                         <span>Anand</span>
                       </a>
-                      <a href="group.html" class="footer-navlink3">
+                      <a href="group.html" class="footer-navlink4">
                         <span>Group</span>
                       </a>
-                      <a href="openings.html" class="footer-navlink4">
+                      <a href="openings.html" class="footer-navlink5">
                         <span>Openings</span>
                       </a>
                     </div>
                   </div>
-                  <div class="footer-contact">
-                    <div class="footer-container04">
-                      <span class="footer-text09 Heading3">
+                  <div class="footer-contact1">
+                    <div class="footer-container14">
+                      <span class="footer-text19 Heading3">
                         <span>Office</span>
                       </span>
                     </div>
-                    <a
-                      href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="footer-link"
-                    >
-                      <div class="footer-container05">
-                        <svg viewBox="0 0 1024 1024" class="footer-icon">
+                    <a href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9" target="_blank" rel="noreferrer noopener"
+                      class="footer-link1">
+                      <div class="footer-container15">
+                        <svg viewBox="0 0 1024 1024" class="footer-icon1">
                           <path
-                            d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
-                          ></path>
+                            d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z">
+                          </path>
                         </svg>
-                        <span class="footer-text10">
+                        <span class="footer-text20">
                           <span>New Academic Complex 1 (NAC1) 144,</span>
                           <br />
                           <span>
@@ -1383,36 +1205,32 @@
                         </span>
                       </div>
                     </a>
-                    <div class="footer-container06">
-                      <svg viewBox="0 0 1024 1024" class="footer-icon2">
+                    <div class="footer-container16">
+                      <svg viewBox="0 0 1024 1024" class="footer-icon3">
                         <path
-                          d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
-                        ></path>
+                          d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z">
+                        </path>
                       </svg>
-                      <span class="footer-text19 Content">
+                      <span class="footer-text29 Content">
                         <span>+91 44 2257 4753</span>
                       </span>
                     </div>
                   </div>
-                  <div class="footer-contact1">
-                    <div class="footer-container07">
-                      <span class="footer-text20 Heading3">
+                  <div class="footer-contact2">
+                    <div class="footer-container17">
+                      <span class="footer-text30 Heading3">
                         <span>Laboratory</span>
                       </span>
                     </div>
-                    <a
-                      href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="footer-link1"
-                    >
-                      <div class="footer-container08">
-                        <svg viewBox="0 0 1024 1024" class="footer-icon4">
+                    <a href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9" target="_blank" rel="noreferrer noopener"
+                      class="footer-link2">
+                      <div class="footer-container18">
+                        <svg viewBox="0 0 1024 1024" class="footer-icon5">
                           <path
-                            d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
-                          ></path>
+                            d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z">
+                          </path>
                         </svg>
-                        <span class="footer-text21">
+                        <span class="footer-text31">
                           <span>
                             Laboratory for mechanics of microstructures,
                           </span>
@@ -1429,13 +1247,13 @@
                         </span>
                       </div>
                     </a>
-                    <div class="footer-container09">
-                      <svg viewBox="0 0 1024 1024" class="footer-icon6">
+                    <div class="footer-container19">
+                      <svg viewBox="0 0 1024 1024" class="footer-icon7">
                         <path
-                          d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
-                        ></path>
+                          d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z">
+                        </path>
                       </svg>
-                      <span class="footer-text31 Content">
+                      <span class="footer-text41 Content">
                         <span>+91 44 2257 5754</span>
                       </span>
                     </div>
@@ -1443,13 +1261,15 @@
                 </div>
               </div>
               <div class="footer-separator"></div>
-              <span class="footer-text32">
+              <span class="footer-text42">
                 <span>© 2023&nbsp; Anand,&nbsp; All Rights Reserved.</span>
               </span>
             </div>
           </div>
-        </div>
+        </footer-wrapper>
       </div>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>

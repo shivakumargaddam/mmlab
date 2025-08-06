@@ -1,9 +1,9 @@
-.header-container {
+.header-container1 {
   top: 0;
   flex: 0 0 auto;
   width: 100%;
   display: flex;
-  padding: var(--dl-space-space-unit);
+  padding: var(--dl-layout-space-unit);
   z-index: 1;
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -13,26 +13,32 @@
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
 }
-.header-container1 {
+ 
+.header-container2 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
   max-width: 1300px;
   align-items: flex-start;
 }
+ 
 .header-link {
   display: contents;
 }
+ 
 .header-image {
   width: 70px;
+  align-self: center;
   object-fit: cover;
-  margin-right: var(--dl-space-space-unit);
+  margin-right: var(--dl-layout-space-unit);
   text-decoration: none;
 }
+ 
 .header-navlink {
   display: contents;
 }
-.header-container2 {
+ 
+.header-container3 {
   flex: 0 0 auto;
   width: auto;
   height: auto;
@@ -41,54 +47,61 @@
   flex-direction: column;
   text-decoration: none;
 }
-.header-text {
-  color: var(--dl-color-gray-white);
-  margin: var(--dl-space-space-halfunit);
-}
+ 
 .header-text1 {
   color: var(--dl-color-gray-white);
+  margin: var(--dl-layout-space-halfunit);
+}
+ 
+.header-text2 {
+  color: var(--dl-color-gray-white);
   margin-top: 0px;
-  margin-left: var(--dl-space-space-halfunit);
-  margin-right: var(--dl-space-space-halfunit);
-  margin-bottom: var(--dl-space-space-halfunit);
+  margin-left: var(--dl-layout-space-halfunit);
+  margin-right: var(--dl-layout-space-halfunit);
+  margin-bottom: var(--dl-layout-space-halfunit);
 }
-.header-root-class-name {
+ 
+.headerroot-class-name {
   top: 0px;
   left: 0px;
   position: 0px;
 }
-.header-root-class-name1 {
+ 
+.headerroot-class-name1 {
   top: 0px;
   left: 0px;
   position: 0px;
 }
+ 
 @media(max-width: 991px) {
-  .header-container2 {
+  .header-container3 {
     flex: 1;
     flex-wrap: wrap;
   }
-  .header-text {
+  .header-text1 {
     font-size: 25;
   }
 }
+ 
 @media(max-width: 767px) {
-  .header-container {
+  .header-container1 {
     padding: 2%;
   }
   .header-image {
     width: 55;
     align-self: flex-start;
-    margin-top: var(--dl-space-space-halfunit);
-    margin-right: var(--dl-space-space-halfunit);
+    margin-top: var(--dl-layout-space-halfunit);
+    margin-right: var(--dl-layout-space-halfunit);
   }
 }
+ 
 @media(max-width: 400px) {
   .header-image {
     width: 50px;
     margin-top: 12px;
-    margin-right: var(--dl-space-space-halfunit);
+    margin-right: var(--dl-layout-space-halfunit);
   }
-  .header-text {
+  .header-text1 {
     font-size: 25px;
   }
 }

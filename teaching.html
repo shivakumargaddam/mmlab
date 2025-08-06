@@ -13,7 +13,7 @@
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -29,9 +29,9 @@
         letter-spacing: normal;
         line-height: 1.3;
         color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        background: var(--dl-color-gray-white);
 
-        null
+        fill: var(--dl-color-gray-black);
       }
     </style>
     <link
@@ -74,249 +74,276 @@
     <div>
       <link href="./teaching.css" rel="stylesheet" />
 
-      <div class="teaching-container">
+      <div class="teaching-container1">
         <div class="teaching-canvas">
-          <div class="teaching-container1">
-            <header class="header-container">
-              <div class="header-container1">
-                <a
-                  href="https://www.iitm.ac.in/"
-                  target="_blank"
-                  rel="noreferrer noopener"
-                  class="header-link"
-                >
-                  <img
-                    alt="image"
-                    src="public/images/iit_madras_logo-200h.png"
-                    class="header-image"
-                  />
-                </a>
-                <a href="index.html" class="header-navlink">
-                  <div class="header-container2">
-                    <span class="header-text GroupName">
-                      <span>Laboratory for Mechanics of Microstructures</span>
-                    </span>
-                    <span class="header-text1">
-                      <span>
-                        Department of Metallurgical and Materials&nbsp;
-                        Engineering, IIT Madras.
+          <div class="teaching-container2">
+            <header-wrapper class="header-wrapper">
+              <!--Header component-->
+              <header class="header-container1 header">
+                <div class="header-container2">
+                  <a
+                    href="https://www.iitm.ac.in/"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    class="header-link"
+                  >
+                    <img
+                      alt="image"
+                      src="public/images/iit_madras_logo-200h.png"
+                      class="header-image"
+                    />
+                  </a>
+                  <a href="index.html" class="header-navlink">
+                    <div class="header-container3">
+                      <span class="header-text1 GroupName">
+                        <span>Laboratory for Mechanics of Microstructures</span>
                       </span>
-                      <br />
-                    </span>
-                  </div>
-                </a>
-              </div>
-            </header>
+                      <span class="header-text2">
+                        <span>
+                          Department of Metallurgical and Materials&nbsp;
+                          Engineering, IIT Madras.
+                        </span>
+                        <br />
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </header>
+            </header-wrapper>
             <div class="teaching-navbar">
-              <div class="teaching-container2">
-                <a href="index.html" class="teaching-button">Home</a>
-                <a href="anand.html" class="teaching-button1">Anand</a>
-                <a href="group.html" class="teaching-button2">Group</a>
-                <a href="research.html" class="teaching-button3">Research</a>
-                <a href="alumni.html" class="teaching-button4">Alumni</a>
-                <a href="publications.html" class="teaching-button5">
+              <div class="teaching-container3">
+                <a href="index.html" class="teaching-button1">Home</a>
+                <a href="anand.html" class="teaching-button2">Anand</a>
+                <a href="group.html" class="teaching-button3">Group</a>
+                <a href="research.html" class="teaching-button4">Research</a>
+                <a href="alumni.html" class="teaching-button5">Alumni</a>
+                <a href="publications.html" class="teaching-button6">
                   Publications
                 </a>
-                <a href="teaching.html" class="teaching-button6">Teaching</a>
-                <a href="openings.html" class="teaching-button7">Openings</a>
+                <a href="teaching.html" class="teaching-button7">Teaching</a>
+                <a href="openings.html" class="teaching-button8">Openings</a>
               </div>
             </div>
           </div>
-          <div class="navbar-navbar navbar-root-class-name4">
-            <div class="navbar-container">
-              <a href="index.html" class="navbar-button"><span>Home</span></a>
-              <a href="anand.html" class="navbar-button1"><span>Anand</span></a>
-              <a href="group.html" class="navbar-button2"><span>Group</span></a>
-              <a href="research.html" class="navbar-button3">
-                <span>Research</span>
-              </a>
-              <a href="alumni.html" class="navbar-button4">
-                <span>Alumni</span>
-              </a>
-              <a href="publications.html" class="navbar-button5">
-                <span>Publications</span>
-              </a>
-              <a href="teaching.html" class="navbar-button6">
-                <span>Teaching</span>
-              </a>
-              <a href="openings.html" class="navbar-button7">
-                <span>Openings</span>
-              </a>
+          <navbar-wrapper
+            class="navbar-wrapper"
+            rootclassname="navbarundefined"
+          >
+            <!--Navbar component-->
+            <div class="navbar-navbar navbarroot-class-name4">
+              <div class="navbar-container">
+                <a href="index.html" class="navbar-button1">
+                  <span>Home</span>
+                </a>
+                <a href="anand.html" class="navbar-button2">
+                  <span>Anand</span>
+                </a>
+                <a href="group.html" class="navbar-button3">
+                  <span>Group</span>
+                </a>
+                <a href="research.html" class="navbar-button4">
+                  <span>Research</span>
+                </a>
+                <a href="alumni.html" class="navbar-button5">
+                  <span>Alumni</span>
+                </a>
+                <a href="publications.html" class="navbar-button6">
+                  <span>Publications</span>
+                </a>
+                <a href="teaching.html" class="navbar-button7">
+                  <span>Teaching</span>
+                </a>
+                <a href="openings.html" class="navbar-button8">
+                  <span>Openings</span>
+                </a>
+              </div>
             </div>
-          </div>
-          <div class="teaching-container3">
-            <span class="teaching-text Heading2">Teaching</span>
+          </navbar-wrapper>
+          <div class="teaching-container4">
+            <span class="teaching-text10 Heading2">Teaching</span>
             <ul class="teaching-ul list">
-              <li class="teaching-li list-item">
+              <li class="teaching-li10 list-item">
+                <span>Mechanical Behaviour of Materials (Graduate Core)</span>
+              </li>
+              <li class="teaching-li11 list-item">
+                <span>
+                  Finite Element Method in Materials Engineering (Graduate
+                  Elective)
+                </span>
+              </li>
+              <li class="teaching-li12 list-item">
                 <span>Defects in Materials (Graduate Elective)</span>
               </li>
-              <li class="teaching-li1 list-item">
+              <li class="teaching-li13 list-item">
                 <span>
                   Deformation and Failure of Materias (Undergraduate Core)
                 </span>
               </li>
-              <li class="teaching-li2 list-item">
+              <li class="teaching-li14 list-item">
                 <span>
                   Computational Materials Engineering Lab (Dual Degree Core)
                 </span>
               </li>
-              <li class="teaching-li3 list-item">
+              <li class="teaching-li15 list-item">
                 <span>Mechanical Metallurgy (Undergraduate Core)</span>
               </li>
-              <li class="teaching-li4 list-item">
+              <li class="teaching-li16 list-item">
                 <span>Mechanical Metallurgy Lab (Undergraduate Core)</span>
               </li>
-              <li class="teaching-li5 list-item">
+              <li class="teaching-li17 list-item">
                 <span>
                   Multiscale Modelling of Materials (Graduate Elective)
                 </span>
               </li>
-              <li class="teaching-li6 list-item">
+              <li class="teaching-li18 list-item">
                 <span>
                   Introduction to Transport Phenomena (Undergraduate Core)
                 </span>
               </li>
-              <li class="teaching-li7 list-item">
+              <li class="teaching-li19 list-item">
                 <span>Non Metallic materials (Undergraduate Core)</span>
               </li>
             </ul>
           </div>
           <div class="teaching-dotted-line"></div>
-          <div class="footer-footer">
-            <div class="footer-container">
-              <div class="footer-container01">
-                <a href="index.html" class="footer-navlink">
-                  <div class="footer-container02">
-                    <span class="footer-text Heading3">
-                      <span>Laboratory for&nbsp;</span>
-                      <br />
-                      <span>Mechanics of Microstructures</span>
-                      <br />
-                    </span>
-                    <span class="footer-text05 Heading3">
-                      <span>Laboratory for&nbsp;</span>
-                      <span>Mechanics of Microstructures</span>
-                      <br />
-                    </span>
-                  </div>
-                </a>
-                <div class="footer-info">
-                  <div class="footer-quick-links">
-                    <span class="footer-heading Heading3">
-                      <span>Quick Links</span>
-                    </span>
-                    <div class="footer-container03">
-                      <a href="index.html" class="footer-navlink1">
-                        <span>Home</span>
-                      </a>
-                      <a href="anand.html" class="footer-navlink2">
-                        <span>Anand</span>
-                      </a>
-                      <a href="group.html" class="footer-navlink3">
-                        <span>Group</span>
-                      </a>
-                      <a href="openings.html" class="footer-navlink4">
-                        <span>Openings</span>
-                      </a>
-                    </div>
-                  </div>
-                  <div class="footer-contact">
-                    <div class="footer-container04">
-                      <span class="footer-text09 Heading3">
-                        <span>Office</span>
+          <footer-wrapper class="footer-wrapper">
+            <!--Footer component-->
+            <div class="footer-footer">
+              <div class="footer-container10">
+                <div class="footer-container11">
+                  <a href="index.html" class="footer-navlink1">
+                    <div class="footer-container12">
+                      <span class="footer-text10 Heading3">
+                        <span>Laboratory for&nbsp;</span>
+                        <br />
+                        <span>Mechanics of Microstructures</span>
+                        <br />
+                      </span>
+                      <span class="footer-text15 Heading3">
+                        <span>Laboratory for&nbsp;</span>
+                        <span>Mechanics of Microstructures</span>
+                        <br />
                       </span>
                     </div>
-                    <a
-                      href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="footer-link"
-                    >
-                      <div class="footer-container05">
-                        <svg viewBox="0 0 1024 1024" class="footer-icon">
-                          <path
-                            d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
-                          ></path>
-                        </svg>
-                        <span class="footer-text10">
-                          <span>New Academic Complex 1 (NAC1) 144,</span>
-                          <br />
-                          <span>
-                            Dept. of Metallurgical and Materials Engg.,
-                          </span>
-                          <br />
-                          <span>Indian Institute of Technology Madras,</span>
-                          <br />
-                          <span>Chennai - 600 036.</span>
-                          <br />
+                  </a>
+                  <div class="footer-info">
+                    <div class="footer-quick-links">
+                      <span class="footer-heading Heading3">
+                        <span>Quick Links</span>
+                      </span>
+                      <div class="footer-container13">
+                        <a href="index.html" class="footer-navlink2">
+                          <span>Home</span>
+                        </a>
+                        <a href="anand.html" class="footer-navlink3">
+                          <span>Anand</span>
+                        </a>
+                        <a href="group.html" class="footer-navlink4">
+                          <span>Group</span>
+                        </a>
+                        <a href="openings.html" class="footer-navlink5">
+                          <span>Openings</span>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="footer-contact1">
+                      <div class="footer-container14">
+                        <span class="footer-text19 Heading3">
+                          <span>Office</span>
                         </span>
                       </div>
-                    </a>
-                    <div class="footer-container06">
-                      <svg viewBox="0 0 1024 1024" class="footer-icon2">
-                        <path
-                          d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
-                        ></path>
-                      </svg>
-                      <span class="footer-text19 Content">
-                        <span>+91 44 2257 4753</span>
-                      </span>
-                    </div>
-                  </div>
-                  <div class="footer-contact1">
-                    <div class="footer-container07">
-                      <span class="footer-text20 Heading3">
-                        <span>Laboratory</span>
-                      </span>
-                    </div>
-                    <a
-                      href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      class="footer-link1"
-                    >
-                      <div class="footer-container08">
-                        <svg viewBox="0 0 1024 1024" class="footer-icon4">
+                      <a
+                        href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="footer-link1"
+                      >
+                        <div class="footer-container15">
+                          <svg viewBox="0 0 1024 1024" class="footer-icon1">
+                            <path
+                              d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+                            ></path>
+                          </svg>
+                          <span class="footer-text20">
+                            <span>New Academic Complex 1 (NAC1) 144,</span>
+                            <br />
+                            <span>
+                              Dept. of Metallurgical and Materials Engg.,
+                            </span>
+                            <br />
+                            <span>Indian Institute of Technology Madras,</span>
+                            <br />
+                            <span>Chennai - 600 036.</span>
+                            <br />
+                          </span>
+                        </div>
+                      </a>
+                      <div class="footer-container16">
+                        <svg viewBox="0 0 1024 1024" class="footer-icon3">
                           <path
-                            d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+                            d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
                           ></path>
                         </svg>
-                        <span class="footer-text21">
-                          <span>
-                            Laboratory for mechanics of microstructures,
-                          </span>
-                          <br />
-                          <span>New Academic Complex 1 (NAC1) 221,</span>
-                          <br />
-                          <span>
-                            Dept. of Metallurgical and Materials Engg.,
-                          </span>
-                          <br />
-                          <span>Indian Institute of Technology Madras,</span>
-                          <br />
-                          <span>Chennai - 600 036.</span>
+                        <span class="footer-text29 Content">
+                          <span>+91 44 2257 4753</span>
                         </span>
                       </div>
-                    </a>
-                    <div class="footer-container09">
-                      <svg viewBox="0 0 1024 1024" class="footer-icon6">
-                        <path
-                          d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
-                        ></path>
-                      </svg>
-                      <span class="footer-text31 Content">
-                        <span>+91 44 2257 5754</span>
-                      </span>
+                    </div>
+                    <div class="footer-contact2">
+                      <div class="footer-container17">
+                        <span class="footer-text30 Heading3">
+                          <span>Laboratory</span>
+                        </span>
+                      </div>
+                      <a
+                        href="https://goo.gl/maps/vMb2eJPuRRnJ7DCZ9"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="footer-link2"
+                      >
+                        <div class="footer-container18">
+                          <svg viewBox="0 0 1024 1024" class="footer-icon5">
+                            <path
+                              d="M512 490q44 0 75-31t31-75-31-75-75-31-75 31-31 75 31 75 75 31zM512 86q124 0 211 87t87 211q0 62-31 142t-75 150-87 131-73 97l-32 34q-12-14-32-37t-72-92-91-134-71-147-32-144q0-124 87-211t211-87z"
+                            ></path>
+                          </svg>
+                          <span class="footer-text31">
+                            <span>
+                              Laboratory for mechanics of microstructures,
+                            </span>
+                            <br />
+                            <span>New Academic Complex 1 (NAC1) 221,</span>
+                            <br />
+                            <span>
+                              Dept. of Metallurgical and Materials Engg.,
+                            </span>
+                            <br />
+                            <span>Indian Institute of Technology Madras,</span>
+                            <br />
+                            <span>Chennai - 600 036.</span>
+                          </span>
+                        </div>
+                      </a>
+                      <div class="footer-container19">
+                        <svg viewBox="0 0 1024 1024" class="footer-icon7">
+                          <path
+                            d="M282 460q96 186 282 282l94-94q20-20 44-10 72 24 152 24 18 0 30 12t12 30v150q0 18-12 30t-30 12q-300 0-513-213t-213-513q0-18 12-30t30-12h150q18 0 30 12t12 30q0 80 24 152 8 26-10 44z"
+                          ></path>
+                        </svg>
+                        <span class="footer-text41 Content">
+                          <span>+91 44 2257 5754</span>
+                        </span>
+                      </div>
                     </div>
                   </div>
                 </div>
+                <div class="footer-separator"></div>
+                <span class="footer-text42">
+                  <span>© 2023&nbsp; Anand,&nbsp; All Rights Reserved.</span>
+                </span>
               </div>
-              <div class="footer-separator"></div>
-              <span class="footer-text32">
-                <span>© 2023&nbsp; Anand,&nbsp; All Rights Reserved.</span>
-              </span>
             </div>
-          </div>
+          </footer-wrapper>
         </div>
       </div>
     </div>

@@ -9,7 +9,7 @@
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -25,9 +25,9 @@
         letter-spacing: normal;
         line-height: 1.3;
         color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
+        background: var(--dl-color-gray-white);
 
-        null
+        fill: var(--dl-color-gray-black);
       }
     </style>
     <link
@@ -69,26 +69,40 @@
     <link rel="stylesheet" href="../style.css" />
     <div>
       <link href="./alumni-mini-card.css" rel="stylesheet" />
-      <div class="alumni-mini-card-member-card">
-        <a
-          href="linkedin.com"
-          target="_blank"
-          rel="noreferrer noopener"
-          class="alumni-mini-card-link"
-        >
-          <div id="linkedin.com" class="alumni-mini-card-container">
-            <span class="alumni-mini-card-name Heading3">
+      <div class="alumni-mini-card-member-card alumni-mini-card">
+        <div id="linkedin.com" class="alumni-mini-card-container1">
+          <div class="alumni-mini-card-container2">
+            <span class="alumni-mini-card-name">
               <span>Firstname Middlename Lastname</span>
             </span>
-            <span class="alumni-mini-card-year Content">
-              <span>Year:</span>
-            </span>
-            <span class="alumni-mini-card-thesis-area-of-research Content">
-              <span>Thesis:</span>
-            </span>
-            <span class="alumni-mini-card-co-guide"><span></span></span>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="alumni-mini-card-link"
+            >
+              <div class="alumni-mini-card-linked-in">
+                <svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  class="alumni-mini-card-icon1"
+                >
+                  <path
+                    d="M199.429 357.143v566.286h-188.571v-566.286h188.571zM211.429 182.286c0.571 54.286-40.571 97.714-106.286 97.714v0h-1.143c-63.429 0-104-43.429-104-97.714 0-55.429 42.286-97.714 106.286-97.714 64.571 0 104.571 42.286 105.143 97.714zM877.714 598.857v324.571h-188v-302.857c0-76-27.429-128-95.429-128-52 0-82.857 34.857-96.571 68.571-4.571 12.571-6.286 29.143-6.286 46.286v316h-188c2.286-513.143 0-566.286 0-566.286h188v82.286h-1.143c24.571-38.857 69.143-95.429 170.857-95.429 124 0 216.571 81.143 216.571 254.857z"
+                  ></path>
+                </svg>
+              </div>
+            </a>
           </div>
-        </a>
+          <span class="alumni-mini-card-year Content"><span>Year:</span></span>
+          <span class="alumni-mini-card-thesis-area-of-research1">
+            <fragment class="alumni-mini-card-fragment">
+              <span class="alumni-mini-card-thesis-area-of-research2">
+                <span>Thesis:</span>
+              </span>
+            </fragment>
+          </span>
+          <span class="alumni-mini-card-co-guide"><span></span></span>
+        </div>
       </div>
     </div>
   </body>
