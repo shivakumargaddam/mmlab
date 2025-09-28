@@ -93,6 +93,12 @@
     margin-top: var(--dl-layout-space-halfunit);
     margin-right: var(--dl-layout-space-halfunit);
   }
+  .header-text1 {
+    font-size: 22px;
+  }
+  .header-text2 {
+    font-size: 15px;
+  }
 }
  
 @media(max-width: 400px) {
@@ -100,8 +106,5 @@
     width: 50px;
     margin-top: 12px;
     margin-right: var(--dl-layout-space-halfunit);
-  }
-  .header-text1 {
-    font-size: 25px;
   }
 }

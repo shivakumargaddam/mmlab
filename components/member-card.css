@@ -182,13 +182,31 @@
   height: 100%;
 }
  
+.member-card-fragment1 {
+  display: contents;
+}
+ 
+.member-card-text1 {
+  display: inline-block;
+}
+ 
+.member-card-fragment2 {
+  display: contents;
+}
+ 
+.member-card-text2 {
+  display: inline-block;
+}
+ 
 .member-cardroot-class-name {
   display: none;
 }
  
 
  
-
+.member-cardroot-class-name2 {
+  display: none;
+}
  
 
  

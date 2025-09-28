@@ -97,6 +97,12 @@
     margin-top: var(--dl-layout-space-halfunit);
     margin-right: var(--dl-layout-space-halfunit);
   }
+  .header-text1 {
+    font-size: 22px;
+  }
+  .header-text2 {
+    font-size: 15px;
+  }
 }
  
 @media(max-width: 400px) {
@@ -104,9 +110,6 @@
     width: 50px;
     margin-top: 12px;
     margin-right: var(--dl-layout-space-halfunit);
-  }
-  .header-text1 {
-    font-size: 25px;
   }
 }
 
@@ -367,10 +370,6 @@
   border-style: solid;
 }
  
-.navbarroot-class-name {
-  display: none;
-}
- 
 .navbarroot-class-name1 {
   display: none;
 }
@@ -388,10 +387,6 @@
 }
  
 .navbarroot-class-name5 {
-  display: none;
-}
- 
-.navbarroot-class-name6 {
   display: none;
 }
  
@@ -775,11 +770,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card {
@@ -839,8 +844,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-s9cs {
+.alumni-card-wrapper-aeyd {
   display: contents;
 }
  
@@ -1103,11 +1115,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card1 {
@@ -1167,8 +1189,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image1 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-gxce {
+.alumni-card-wrapper-kjro {
   display: contents;
 }
  
@@ -1431,11 +1460,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card2 {
@@ -1495,8 +1534,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-dji4 {
+.alumni-card-wrapper-93eo {
   display: contents;
 }
  
@@ -1759,11 +1805,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card3 {
@@ -1823,8 +1879,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image3 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-6nde {
+.alumni-card-wrapper-4e8r {
   display: contents;
 }
  
@@ -2087,11 +2150,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card4 {
@@ -2151,8 +2224,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image4 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-itcn {
+.alumni-card-wrapper-b9dw {
   display: contents;
 }
  
@@ -2415,11 +2495,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card5 {
@@ -2479,8 +2569,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image5 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-h9ui {
+.alumni-card-wrapper-wrrz {
   display: contents;
 }
  
@@ -2743,11 +2840,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card6 {
@@ -2807,8 +2914,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image6 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-25rc {
+.alumni-card-wrapper-gm5j {
   display: contents;
 }
  
@@ -3071,11 +3185,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card7 {
@@ -3135,8 +3259,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image7 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-2e76 {
+.alumni-card-wrapper-z89f {
   display: contents;
 }
  
@@ -3399,11 +3530,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card8 {
@@ -3463,8 +3604,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image8 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-r382 {
+.alumni-card-wrapper-hxnc {
   display: contents;
 }
  
@@ -3727,11 +3875,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card9 {
@@ -3791,8 +3949,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image9 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-pyof {
+.alumni-card-wrapper-cq34 {
   display: contents;
 }
  
@@ -4055,11 +4220,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card10 {
@@ -4119,8 +4294,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image10 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-ajps {
+.alumni-card-wrapper-kjcl {
   display: contents;
 }
  
@@ -4383,11 +4565,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card11 {
@@ -4447,8 +4639,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image11 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-m4w7 {
+.alumni-card-wrapper-h1ub {
   display: contents;
 }
  
@@ -4711,11 +4910,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card12 {
@@ -4775,8 +4984,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image12 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-l1ce {
+.alumni-card-wrapper-uyyx {
   display: contents;
 }
  
@@ -5039,11 +5255,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card13 {
@@ -5103,8 +5329,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image13 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-rak7 {
+.alumni-card-wrapper-qync {
   display: contents;
 }
  
@@ -5367,11 +5600,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card14 {
@@ -5431,8 +5674,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image14 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-4mle {
+.alumni-card-wrapper-8jn6 {
   display: contents;
 }
  
@@ -5695,11 +5945,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card15 {
@@ -5759,8 +6019,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image15 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-51wl {
+.alumni-card-wrapper-ht8m {
   display: contents;
 }
  
@@ -6023,11 +6290,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card16 {
@@ -6087,8 +6364,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image16 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-0l39 {
+.alumni-card-wrapper-fw69 {
   display: contents;
 }
  
@@ -6351,11 +6635,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card17 {
@@ -6415,8 +6709,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image17 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-mwml {
+.alumni-card-wrapper-hccj {
   display: contents;
 }
  
@@ -6679,11 +6980,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card18 {
@@ -6743,8 +7054,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image18 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-lle1 {
+.alumni-card-wrapper-n99p {
   display: contents;
 }
  
@@ -7007,11 +7325,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card19 {
@@ -7071,8 +7399,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image19 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-gwc8 {
+.alumni-card-wrapper-gjeg {
   display: contents;
 }
  
@@ -7335,11 +7670,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card20 {
@@ -7399,8 +7744,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image20 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-j5u2 {
+.alumni-card-wrapper-f0yx {
   display: contents;
 }
  
@@ -7663,11 +8015,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card21 {
@@ -7727,8 +8089,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image21 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-sqxe {
+.alumni-card-wrapper-jzuo {
   display: contents;
 }
  
@@ -7991,11 +8360,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card22 {
@@ -8055,8 +8434,15 @@
     position: static;
   }
 }
+ 
+@media(max-width: 400px) {
+  .alumni-card-image22 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
 
-.alumni-card-wrapper-wvan {
+.alumni-card-wrapper-sin6 {
   display: contents;
 }
  
@@ -8319,11 +8705,21 @@
  
 
  
+
+ 
 .alumni-cardroot-class-name33 {
   display: none;
 }
  
 
+ 
+
+ 
+
+ 
+.alumni-cardroot-class-name37 {
+  display: none;
+}
  
 @media(max-width: 767px) {
   .alumni-card-member-card23 {
@@ -8381,6 +8777,13 @@
   }
   .alumni-card-container72 {
     position: static;
+  }
+}
+ 
+@media(max-width: 400px) {
+  .alumni-card-image23 {
+    margin-top: 10%;
+    margin-bottom: 10%;
   }
 }
 
@@ -8583,7 +8986,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-ui7r {
+.alumni-mini-card-wrapper-24no {
   display: contents;
 }
  
@@ -8782,7 +9185,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-cfrz {
+.alumni-mini-card-wrapper-3w8p {
   display: contents;
 }
  
@@ -8981,7 +9384,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-2pap {
+.alumni-mini-card-wrapper-jzy1 {
   display: contents;
 }
  
@@ -9180,7 +9583,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-ikp7 {
+.alumni-mini-card-wrapper-5u1x {
   display: contents;
 }
  
@@ -9379,7 +9782,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-bsog {
+.alumni-mini-card-wrapper-58ae {
   display: contents;
 }
  
@@ -9578,7 +9981,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-l5pb {
+.alumni-mini-card-wrapper-fd7d {
   display: contents;
 }
  
@@ -9777,7 +10180,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-k1ts {
+.alumni-mini-card-wrapper-1lr4 {
   display: contents;
 }
  
@@ -9976,7 +10379,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-6de7 {
+.alumni-mini-card-wrapper-raw5 {
   display: contents;
 }
  
@@ -10175,7 +10578,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-grck {
+.alumni-mini-card-wrapper-pkga {
   display: contents;
 }
  
@@ -10374,7 +10777,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-7fl1 {
+.alumni-mini-card-wrapper-nj6c {
   display: contents;
 }
  
@@ -10573,7 +10976,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-5z8n {
+.alumni-mini-card-wrapper-ly8a {
   display: contents;
 }
  
@@ -10772,7 +11175,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-ry1w {
+.alumni-mini-card-wrapper-7dhu {
   display: contents;
 }
  
@@ -10971,7 +11374,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-uesj {
+.alumni-mini-card-wrapper-99js {
   display: contents;
 }
  
@@ -11170,7 +11573,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-rfpy {
+.alumni-mini-card-wrapper-y0lv {
   display: contents;
 }
  
@@ -11369,7 +11772,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-elzk {
+.alumni-mini-card-wrapper-b24b {
   display: contents;
 }
  
@@ -11568,7 +11971,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-u30x {
+.alumni-mini-card-wrapper-3i4p {
   display: contents;
 }
  
@@ -11767,7 +12170,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-kyav {
+.alumni-mini-card-wrapper-s1fh {
   display: contents;
 }
  
@@ -11966,7 +12369,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-lqiq {
+.alumni-mini-card-wrapper-s8p5 {
   display: contents;
 }
  
@@ -12165,7 +12568,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-th59 {
+.alumni-mini-card-wrapper-a6sn {
   display: contents;
 }
  
@@ -12364,7 +12767,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-7s4q {
+.alumni-mini-card-wrapper-tp4v {
   display: contents;
 }
  
@@ -12563,7 +12966,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-iw7p {
+.alumni-mini-card-wrapper-k59f {
   display: contents;
 }
  
@@ -12762,7 +13165,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-bw2e {
+.alumni-mini-card-wrapper-bfli {
   display: contents;
 }
  
@@ -12961,7 +13364,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-s2g5 {
+.alumni-mini-card-wrapper-tw80 {
   display: contents;
 }
  
@@ -13160,7 +13563,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-fz35 {
+.alumni-mini-card-wrapper-inbu {
   display: contents;
 }
  
@@ -13359,7 +13762,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-r56z {
+.alumni-mini-card-wrapper-poen {
   display: contents;
 }
  
@@ -13558,7 +13961,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-4hea {
+.alumni-mini-card-wrapper-w983 {
   display: contents;
 }
  
@@ -13757,7 +14160,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-7qr6 {
+.alumni-mini-card-wrapper-5mj6 {
   display: contents;
 }
  
@@ -13956,7 +14359,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-e4cq {
+.alumni-mini-card-wrapper-7bdm {
   display: contents;
 }
  
@@ -14155,7 +14558,7 @@
   }
 }
 
-.alumni-mini-card-wrapper-1icw {
+.alumni-mini-card-wrapper-a1o1 {
   display: contents;
 }
  
@@ -15068,10 +15471,10 @@
   display: inline-block;
 }
  
-.alumni-template1 {
+.alumni-container15 {
   flex: 0 0 auto;
   width: 100%;
-  display: none;
+  display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
   flex-direction: row;
@@ -15111,7 +15514,7 @@
   font-style: normal;
 }
  
-.alumni-container15 {
+.alumni-container16 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15137,7 +15540,7 @@
   display: inline-block;
 }
  
-.alumni-container16 {
+.alumni-container17 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15163,7 +15566,7 @@
   display: inline-block;
 }
  
-.alumni-template2 {
+.alumni-template {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15206,7 +15609,7 @@
   font-style: normal;
 }
  
-.alumni-container17 {
+.alumni-container18 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15232,7 +15635,7 @@
   display: inline-block;
 }
  
-.alumni-container18 {
+.alumni-container19 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15258,7 +15661,7 @@
   display: inline-block;
 }
  
-.alumni-container19 {
+.alumni-container20 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15284,7 +15687,7 @@
   display: inline-block;
 }
  
-.alumni-container20 {
+.alumni-container21 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15310,7 +15713,7 @@
   display: inline-block;
 }
  
-.alumni-container21 {
+.alumni-container22 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15336,7 +15739,7 @@
   display: inline-block;
 }
  
-.alumni-container22 {
+.alumni-container23 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15379,7 +15782,7 @@
   font-style: normal;
 }
  
-.alumni-container23 {
+.alumni-container24 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15405,7 +15808,7 @@
   display: inline-block;
 }
  
-.alumni-container24 {
+.alumni-container25 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15431,7 +15834,7 @@
   display: inline-block;
 }
  
-.alumni-container25 {
+.alumni-container26 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15457,7 +15860,7 @@
   display: inline-block;
 }
  
-.alumni-container26 {
+.alumni-container27 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15483,7 +15886,7 @@
   display: inline-block;
 }
  
-.alumni-container27 {
+.alumni-container28 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15509,7 +15912,7 @@
   display: inline-block;
 }
  
-.alumni-container28 {
+.alumni-container29 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15535,7 +15938,7 @@
   display: inline-block;
 }
  
-.alumni-container29 {
+.alumni-container30 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15561,7 +15964,7 @@
   display: inline-block;
 }
  
-.alumni-container30 {
+.alumni-container31 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15604,7 +16007,7 @@
   font-style: normal;
 }
  
-.alumni-container31 {
+.alumni-container32 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15630,7 +16033,7 @@
   display: inline-block;
 }
  
-.alumni-container32 {
+.alumni-container33 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15656,7 +16059,7 @@
   display: inline-block;
 }
  
-.alumni-container33 {
+.alumni-container34 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15682,7 +16085,7 @@
   display: inline-block;
 }
  
-.alumni-container34 {
+.alumni-container35 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15708,7 +16111,7 @@
   display: inline-block;
 }
  
-.alumni-container35 {
+.alumni-container36 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15751,7 +16154,7 @@
   font-style: normal;
 }
  
-.alumni-container36 {
+.alumni-container37 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15777,7 +16180,7 @@
   display: inline-block;
 }
  
-.alumni-container37 {
+.alumni-container38 {
   flex: 0 0 auto;
   width: 100%;
   display: flex;
@@ -15813,6 +16216,42 @@
   border-top-width: 0px;
   border-left-width: 0px;
   border-right-width: 0px;
+}
+ 
+.alumni-link {
+  display: contents;
+}
+ 
+.alumni-container39 {
+  right: 50px;
+  border: 1px solid #ffffff5c;
+  bottom: 30px;
+  display: flex;
+  z-index: 22;
+  position: fixed;
+  box-shadow: 5px 5px 10px 0px rgba(31, 31, 31, 0.4);
+  min-height: auto;
+  align-items: center;
+  padding-top: 8px;
+  padding-left: 12px;
+  border-radius: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  backdrop-filter: blur(6px);
+  background-color: rgba(41, 41, 41, 0.41);
+}
+ 
+.alumni-icon1 {
+  width: 24px;
+  margin-right: 4px;
+}
+ 
+.alumni-text57 {
+  color: white;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
 }
  
 @media(max-width: 991px) {
@@ -15855,36 +16294,60 @@
     padding-top: 210px;
   }
   .alumni-button1 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-button2 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-button3 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-button4 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-button5 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-button6 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-button7 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-button8 {
+    font-size: 14px;
+    margin-top: 2px;
     margin-left: 10px;
     margin-right: 10px;
+    margin-bottom: 2px;
   }
   .alumni-m-tech-students {
     align-items: center;
